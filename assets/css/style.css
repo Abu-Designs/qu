@@ -168,15 +168,76 @@
 	}
 }
 
-@media screen and (max-width: 992px) {
 
-	.top-utility,
-	.top-header-left-img,
-	.top-header-right-img {
+
+@media screen and (max-width: 991px) {
+
+	.header-sm-lang{
+		display: block !important;
+	}
+	.top-utility {
 		display: none !important;
+	}
+
+	.top-utility .menu-links {
+		clear: auto;
+		margin: 0;
+		border-bottom: 0px solid #E9E9E9;
+	}
+
+	.top-utility .menu-links .nav {
+		float: auto;
+		background: black;
+		width: 100%;
+		display: block;
+		margin-bottom: auto;
+	}
+
+	.top-utility .menu-links .nav li {
+		width: auto;
+	}
+
+	.rs-nav .top-utility .menu-links {
+		position: initial;
+		height: auto !important;
+		width: auto !important;
+		background-color: black !important;
+		margin: 0 !important;
+		z-index: 99 !important;
+		overflow: hidden !important;
+		display: flex !important;
+		flex-direction: row !important;
+	}
+
+	.rs-nav .top-utility .menu-links ul li {
+		display: inline-block !important;
 	}
 }
 
+
+
+
+
+.header-sm-lang {
+	background-color: #000;
+	z-index: 10;
+	padding-left: 1rem;
+	display: none;
+}
+
+.header-lang,
+.header-sm-lang {
+	list-style-type: none;
+}
+
+.header-sm-lang button{
+	color: white;
+	margin-left: -0.5rem;
+}
+
+.header-lang li, .header-sm-lang li {
+	float: left !important;
+}
 .header-lang {
 	list-style-type: none;
 }
@@ -2311,7 +2372,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	background-color: rgba(226, 227, 229, 0.60);
 	width: fit-content;
 	padding: 2rem 2rem 1rem 2rem;
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	right: 0;
 }
