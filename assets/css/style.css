@@ -1540,12 +1540,13 @@
 .quickfact-image img{
 	width: auto;
 	height: 400px;
+	object-fit: contain;
 }
 
 /*  */
-.colleges-sm-number{
-	left: 16.5%;
-	margin-top: 1.3rem;
+.colleges-sm-number {
+    left: 15.5%;
+    margin-top: 2.3rem;
 }
 .colleges-sm-text {
     left: 11.5%;
@@ -1557,50 +1558,48 @@
 	margin-top: 6rem;
 }
 .program-sm-text {
-    left: 66.5%;
-    margin-top: 1rem;
-	color: #000 !important;
+    left: 58.5%;
+    margin-top: 2.5rem;
+    color: #000 !important;
 }
 
-.students-sm-number{
-	left: 33%;
-	margin-top: 19.5rem;
+.students-sm-number {
+    left: 31%;
+    margin-top: 17.5rem;
 }
 .students-sm-text {
-    left: 33%;
-    margin-top: 21.5rem;
-	color: #000 !important;
-}
-
-.alumni-sm-number{
-	left: 83.5%;
-	margin-top: 19.5rem;
-}
-.alumni-sm-text {
-    left: 83.5%;
-    margin-top: 21.5rem;
-	color: #000 !important;
-}
-
-.research-sm-number{
-	left: 35.5%;
-	margin-top: 19rem;
-	
-}
-.research-sm-text {
-    left: 31.5%;
+    left: 30%;
     margin-top: 20.5rem;
     color: #000 !important;
 }
 
-.projects-sm-number{
-	left: 60.5%;
-	margin-top: 3.5rem;
+.alumni-sm-number {
+    left: 80.5%;
+    margin-top: 17.5rem;
+}
+.alumni-sm-text {
+    left: 79.5%;
+    margin-top: 20.5rem;
+    color: #000 !important;
+}
 
+.research-sm-number {
+    left:29.5%;
+    margin-top: 17rem;
+}
+.research-sm-text {
+    left: 29.5%;
+    margin-top: 18.5rem;
+    color: #000 !important;
+}
+
+.projects-sm-number {
+    left: 63.5%;
+    margin-top: 5.5rem;
 }
 .projects-sm-text {
     left: 7.5%;
-    margin-top: 5rem;
+    margin-top: 7rem;
     color: #000 !important;
 }
 @media only screen and (max-width: 770px) {
