@@ -65,6 +65,11 @@ body {
     text-align: right !important;
 }
 
+.event-left-side{
+    direction: ltr;
+    text-align: right;
+}
+
 .footer-top {
     direction: ltr !important;
 }
