@@ -3004,14 +3004,37 @@ button.back-to-top {
 }
 
 .title-head {
-	color: orange;
-	font-weight: 400;
+	color: #623C21;
+	font-weight: 500;
+	display: inline-block;
 }
 
 .title-head span {
-	font-weight: 400;
+	font-weight: 500;
 	color: black;
 }
+
+
+
+.btn-section{
+	width: 45px;
+	height: 45px;
+	background-color: #10798F;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.btn-dot{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: white;
+	display: inline-block;
+	margin-top: 42%;
+}
+
 
 .img-news {
 	padding: 0;
@@ -4418,7 +4441,7 @@ footer .footer-link :hover {
 	.upcoming-event-carousel.owl-btn-1 .owl-prev,
 	.upcoming-event-carousel.owl-btn-1 .owl-next {
 		margin: 0 0 !important;
-		background-color: orange !important;
+		background-color: #623C21 !important;
 	}
 
 	.testimonial-carousel .owl-nav,
