@@ -43,6 +43,11 @@ body {
     text-align: right !important;
 }
 
+.menu-bar .menu-links {
+    float: left;
+    direction: ltr !important;
+}
+
 .menu-bar .menu-links .nav>li .sub-menu {
     left: auto !important;
     text-align: right;
