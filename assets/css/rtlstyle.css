@@ -1,0 +1,109 @@
+body {
+    direction: rtl;
+}
+
+.menu-links .nav{
+    direction: rtl;
+}
+
+.top-utility .menu-links .nav>li .sub-menu{
+    right: auto;
+}
+
+.top-header-left-img {
+    width: 100px !important;
+    margin-left: -60px;
+}
+
+.top-header-right-img {
+    width: 35px;
+}
+
+.top-utility {
+    direction: ltr;
+}
+
+.header-lang {
+    margin-left: 10px !important;
+}
+
+.top-utility .search-btn {
+    margin-right: 0%;
+}
+
+.top-phonenumber .btn-link i {
+    transform: rotate(250deg);
+}
+
+.slider-video .tp-parallax-wrap :nth-child(1) {
+    direction: ltr;
+}
+
+.name-text {
+    text-align: right !important;
+}
+
+.menu-bar .menu-links .nav>li .sub-menu {
+    left: auto !important;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.menu-adv-title:after {
+    left: auto;
+}
+
+.title-head {
+    text-align: right;
+}
+
+.research-section {
+    direction: ltr;
+}
+
+.people-section li {
+    text-align: right !important;
+}
+
+.footer-top {
+    direction: ltr !important;
+}
+
+.footer-top div.row {
+    justify-content: flex-start;
+    direction: rtl;
+    text-align: right;
+}
+
+.no-gutters {
+    direction: ltr !important;
+}
+
+.top-header-right-img {
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-top div.row {
+        padding-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .name-text {
+        left: -15% !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .name-text {
+        left: -100px !important;
+    }
+}
+
+@media screen and (min-width: 791px) and (max-width: 1269px) {
+    .name-text {
+        left: -200px !important;
+        font-size: 40px !important;
+    }
+}
