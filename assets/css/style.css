@@ -4582,3 +4582,22 @@ footer .footer-link :hover {
 .iner-menu .navbar-toggler span {
     background-color: #000;
 }
+
+.btn-section{
+	width: 45px;
+	height: 45px;
+	background-color: #10798F;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+
+.btn-dot{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background-color: white;
+	display: inline-block;
+	margin-top: 42%;
+}
