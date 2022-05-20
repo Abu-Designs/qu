@@ -3014,28 +3014,6 @@ button.back-to-top {
 	color: black;
 }
 
-
-
-.btn-section{
-	width: 45px;
-	height: 45px;
-	background-color: #10798F;
-	border-radius: 50%;
-	text-align: center;
-	display: inline-block;
-	margin-bottom: 1rem;
-}
-
-.btn-dot{
-	width: 7px;
-	height: 7px;
-	border-radius: 50%;
-	background-color: white;
-	display: inline-block;
-	margin-top: 42%;
-}
-
-
 .img-news {
 	padding: 0;
 }

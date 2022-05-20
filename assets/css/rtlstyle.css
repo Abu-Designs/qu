@@ -2,11 +2,11 @@ body {
     direction: rtl;
 }
 
-.menu-links .nav{
+.menu-links .nav {
     direction: rtl;
 }
 
-.top-utility .menu-links .nav>li .sub-menu{
+.top-utility .menu-links .nav>li .sub-menu {
     right: auto;
 }
 
@@ -36,6 +36,10 @@ body {
 }
 
 .slider-video .tp-parallax-wrap :nth-child(1) {
+    direction: ltr;
+}
+
+.heading-bx {
     direction: ltr;
 }
 
@@ -70,7 +74,7 @@ body {
     text-align: right !important;
 }
 
-.event-left-side{
+.event-left-side {
     direction: ltr;
     text-align: right;
 }
@@ -91,6 +95,10 @@ body {
 
 .top-header-right-img {
     margin-left: 0;
+}
+
+.calender-photo {
+    direction: ltr;
 }
 
 @media only screen and (max-width: 576px) {
@@ -115,5 +123,11 @@ body {
     .name-text {
         left: -200px !important;
         font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .rs-nav .navbar-toggler.open:after {
+        width: 0 !important;
     }
 }
