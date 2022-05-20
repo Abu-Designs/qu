@@ -107,7 +107,7 @@ Theme Version:	1.0.0
 							datasets: [{
 								label: "Views",
 								backgroundColor: 'rgba(0,0,0,0.05)',
-								borderColor: '#4c1864',
+								borderColor: '#41a5ba',
 								borderWidth: "3",
 								data: [196,132,215,362,210,252],
 								pointRadius: 4,
