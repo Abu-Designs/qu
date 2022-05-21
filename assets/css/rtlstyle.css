@@ -131,3 +131,21 @@ body {
         width: 0 !important;
     }
 }
+.heading-bx .title-head{
+    float: right;
+}
+.ml-auto, .mx-auto {
+    margin-right: auto!important;
+    margin-left: unset !important;
+}
+.widget .widget-title, .widget .post-title {
+    text-transform: unset;
+    text-align: right;
+}
+.ttr-post-header .post-title{
+    padding-right: 20px;
+}
+.media-post{
+    text-align: right;
+    margin-top: 10px;
+}

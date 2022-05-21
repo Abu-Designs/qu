@@ -4601,3 +4601,21 @@ footer .footer-link :hover {
 	display: inline-block;
 	margin-top: 42%;
 }
+article .title {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #754100 !important;
+}
+.calndar-input{
+	width: 100%;
+	height: 44px;
+	margin-top: 10px;
+	color: #858585;
+}
+.bootstrap-select .dropdown-toggle:active, .bootstrap-select .dropdown-toggle:focus, .bootstrap-select .dropdown-toggle:hover {
+    background-color: #10798F !important;
+    
+	color: #fff;
+    box-shadow: none !important;
+    outline: 0px !important;
+}
