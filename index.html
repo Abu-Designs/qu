@@ -60,7 +60,8 @@
 	<div class="page-wraper">
 		<div id="loading-icon-bx"></div>
 		<!-- Header Top ==== -->
-		<header class="header rs-nav  header-transparent">
+		<header class="header rs-nav iner-menu header-transparent  " style="position: absolute;
+		width: 100%;">
 			<div class="top-bar" style="padding: 0;">
 				<div class="container">
 					<div class="row d-flex top-info">
@@ -108,8 +109,8 @@
 								</li>
 							</ul>
 							<div class="top-utility">
-								<div class="sticky-header navbar-expand-lg">
-									<div class="menu-links">
+								<div class="sticky-header navbar-expand-lg top-2">
+									<div class="menu-links" >
 										<ul class="nav navbar-nav top-header-links ">
 											<li><a href="#"><i class="fa fa-phone"></i></a></li>
 											<li><a href="javascript:;" class="btn-link"><i
@@ -123,7 +124,7 @@
 											<li><a href="#">Students</a></li>
 											<li><a href="#">Alumni</a></li>
 											<li><a href="#">Directory</a></li>
-											<li class=""><a>Quick Links <i class="fa fa-chevron-down"></i></a>
+											<li class=" "><a>Quick Links <i class="fa fa-chevron-down"></i></a>
 												<ul class="sub-menu quick-links">
 													<li>
 														<a class="" href="#"><i class="fa fa-linkedin"></i>
@@ -153,9 +154,9 @@
 											</li>
 											<ul class="header-lang">
 												<li>
-													<select class="header-lang-bx" id="selectBox" onchange="changeLang(value)">
-														<option value="en">English</option>
-														<option value="ar">العربية</option>
+													<select class="header-lang-bx">
+														<option>العربية</option>
+														<option>English</option>
 													</select>
 												</li>
 											</ul>
@@ -185,68 +186,69 @@
 				<div class="container">
 					<div class="row d-flex justify-content-between">
 						<img src="assets/images/qulogo.svg" width="200" />
-					</div>
-				</div>
-			</div>
-			<div class="sticky-header navbar-expand-lg is-fixed">
-				<div class="menu-bar clearfix">
-					<div class="container clearfix">
-						<!-- Mobile Nav Button ==== -->
-						<button class="navbar-toggler collapsed menuicon justify-content-end" type="button"
-							data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown"
-							aria-expanded="false" aria-label="Toggle navigation">
-							<span></span>
-							<span></span>
-							<span></span>
-						</button>
-						<!-- Author Nav ==== -->
-
-						<!-- Navigation Menu ==== -->
-						<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
-							<div class="menu-logo">
-								<a href="index.html"><img src="assets/images/gallery/logo.JPG" width="200" /></a>
-							</div>
-							<ul class="nav navbar-nav">
-								<li class="active"><a href="#">About</a></i>
-									<li class="add-mega-menu"><a href="javascript:;">Our Courses <i class="fa fa-chevron-down"></i></a>
-										<ul class="sub-menu add-menu">
-											<li class="add-menu-left">
-												<h5 class="menu-adv-title">Our Courses</h5>
-												<ul>
-													<li><a href="courses.html">Courses </a></li>
-													<li><a href="courses-details.html">Courses Details</a></li>
-													<li><a href="profile.html">Instructor Profile</a></li>
-													<li><a href="event.html">Upcoming Event</a></li>
-													<li><a href="membership.html">Membership</a></li>
-												</ul>
-											</li>
-											<li class="add-menu-left">
-												<h5 class="menu-adv-title">Our Courses</h5>
-												<ul>
-													<li><a href="courses.html">Courses </a></li>
-													<li><a href="courses-details.html">Courses Details</a></li>
-													<li><a href="profile.html">Instructor Profile</a></li>
-													<li><a href="event.html">Upcoming Event</a></li>
-													<li><a href="membership.html">Membership</a></li>
-												</ul>
-											</li>
+						<div class="sticky-header navbar-expand-lg is-fixed">
+							<div class="menu-bar clearfix" style="background-image:none"> 
+								<div class="container clearfix">
+									<!-- Mobile Nav Button ==== -->
+									<button class="navbar-toggler collapsed menuicon justify-content-end" type="button"
+										data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown"
+										aria-expanded="false" aria-label="Toggle navigation">
+										<span></span>
+										<span></span>
+										<span></span>
+									</button>
+									<!-- Author Nav ==== -->
+			
+									<!-- Navigation Menu ==== -->
+									<div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
+										<div class="menu-logo">
+											<a href="index.html"><img src="assets/images/gallery/logo.JPG" width="200" /></a>
+										</div>
+										<ul class="nav navbar-nav">
+											<li class="active"><a href="#">About</a></i>
+												<li class="add-mega-menu"><a href="javascript:;">Our Courses <i class="fa fa-chevron-down"></i></a>
+													<ul class="sub-menu add-menu">
+														<li class="add-menu-left">
+															<h5 class="menu-adv-title">Our Courses</h5>
+															<ul>
+																<li><a href="courses.html">Courses </a></li>
+																<li><a href="courses-details.html">Courses Details</a></li>
+																<li><a href="profile.html">Instructor Profile</a></li>
+																<li><a href="event.html">Upcoming Event</a></li>
+																<li><a href="membership.html">Membership</a></li>
+															</ul>
+														</li>
+														<li class="add-menu-left">
+															<h5 class="menu-adv-title">Our Courses</h5>
+															<ul>
+																<li><a href="courses.html">Courses </a></li>
+																<li><a href="courses-details.html">Courses Details</a></li>
+																<li><a href="profile.html">Instructor Profile</a></li>
+																<li><a href="event.html">Upcoming Event</a></li>
+																<li><a href="membership.html">Membership</a></li>
+															</ul>
+														</li>
+													
+													</ul>
+												</li>
+											<li><a href="#">Admissions</a></li>
+											<li><a href="#">Colleges</a></li>
+											<li><a href="#">Academics</a></li>
+											<li><a href="#">Research</a></li>
+											<li><a href="#">Student Lifes</a></li>
 										
+									
 										</ul>
-									</li>
-								<li><a href="#">Admissions</a></li>
-								<li><a href="#">Colleges</a></li>
-								<li><a href="#">Academics</a></li>
-								<li><a href="#">Research</a></li>
-								<li><a href="#">Student Lifes</a></li>
-							
-						
-							</ul>
-							
+										
+									</div>
+									<!-- Navigation Menu END ==== -->
+								</div>
+							</div>
 						</div>
-						<!-- Navigation Menu END ==== -->
 					</div>
 				</div>
 			</div>
+		
 		</header>
 		<!-- Header Top END ==== -->
 		<!-- Content -->

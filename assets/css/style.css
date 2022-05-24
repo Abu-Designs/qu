@@ -4619,3 +4619,6 @@ article .title {
     box-shadow: none !important;
     outline: 0px !important;
 }
+.profile-tabnav .nav li a:hover{
+    background-color: #10798f;
+    color: #ffffff;}
