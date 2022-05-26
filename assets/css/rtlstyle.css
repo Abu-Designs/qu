@@ -50,6 +50,12 @@ body {
 .menu-bar .menu-links {
     float: left;
     direction: ltr !important;
+    
+}
+
+.rs-nav .menu-links.show{
+    left: auto !important;
+    right: -1px !important;
 }
 
 .menu-bar .menu-links .nav>li .sub-menu {

@@ -23,6 +23,10 @@
 /*=================================
 	1. HEADER
 =================================*/
+p, h1,h2,h3,h4,h5,h6, a {
+	font-family: 'Roboto' !important;
+   }
+
 .content-container {
 	padding: 0 3rem;
 }
@@ -53,6 +57,17 @@
 .rev_slider .tp-mask-wrap :last-child {
 	padding: 4px;
 	margin-bottom: 8px !important;
+}
+
+.slider-li :nth-child(2){
+	width: inherit !important;
+	left: auto !important;
+}
+
+.slider-li :nth-child(2) .tp-loop-wrap,
+.slider-li :nth-child(2) .tp-loop-wrap .tp-mask-wrap,
+.slider-li :nth-child(2) .tp-loop-wrap .tp-mask-wrap .Newspaper-Title{
+	width: 100% !important;
 }
 
 .top-phonenumber {
@@ -475,7 +490,7 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	font-family: rubik;
+	font-family: Roboto;
 	font-size: 14px;
 }
 
@@ -526,7 +541,7 @@
 	padding: 0 10px 0px 0 !important;
 	height: 18px;
 	color: #000;
-	font-family: rubik;
+	font-family: Roboto;
 	font-size: 14px;
 }
 
@@ -746,7 +761,7 @@
 	font-weight: 400;
 	/* text-transform: uppercase; */
 	position: relative;
-	font-family: Rubik;
+	font-family: Roboto;
 }
 
 .menu-links .nav>li>a {
@@ -829,7 +844,7 @@
 	-moz-transition: all 0.15s linear;
 	-o-transition: all 0.15s linear;
 	font-weight: 400;
-	font-family: Rubik;
+	font-family: Roboto;
 }
 
 .menu-links .nav>li .sub-menu li a:hover {
@@ -1536,59 +1551,59 @@
 }
 
 .colleges-number {
-    left: 16%;
-    margin-top: 3.5%;
+    left: 5%;
+    margin-top: 5.5%;
 }
 .colleges-text {
-    left: 14%;
-    margin-top: 13.5%;
+    left: 3%;
+    margin-top: 17.5%;
 	color: #000 !important;
 }
 .programs-number {
-    left: 28%;
-    margin-top: 13%;
+    left: 21.5%;
+    margin-top: 17%;
 }
 .programs-text {
-    left: 27%;
-    margin-top: 3%;
+    left: 20%;
+    margin-top: 5%;
 	color: #000 !important;
 }
 
 .alumni-number {
-    left: 52.5%;
-    margin-top: 10%;
+    left: 53.5%;
+    margin-top: 13%;
 }
 .alumni-text {
-    left: 52.5%;
-    margin-top: 13%;
+    left: 53.5%;
+    margin-top: 17%;
 	color: #000 !important;
 }
 .students-number {
-    left: 58.5%;
-    margin-top: 4.2%;
+    left: 61%;
+    margin-top: 6%;
 }
 .students-text {
-    left: 58%;
-    margin-top: 7%;
+    left: 61%;
+    margin-top: 9%;
     color: #000 !important;
 }
 .research-number {
-    left: 70.5%;
-    margin-top: 12.2%;
+    left: 79.5%;
+    margin-top: 14.2%;
 }
 .research-text {
-    left: 70.5%;
-    margin-top: 13.5%;
+    left: 76.5%;
+    margin-top: 15.5%;
 	color: #000 !important;
 }
 
 
 .projects-number {
-    left: 79.5%;
+    left: 88.5%;
     margin-top: 0.5%;
 }
 .projects-text {
-    left: 66.5%;
+    left: 74.5%;
     margin-top: 1.9%;
     color: #000 !important;
 }
@@ -1607,7 +1622,7 @@
 /*  */
 .colleges-sm-number {
     left: 15.5%;
-    margin-top: 2.3rem;
+    margin-top: 1.3rem;
 }
 .colleges-sm-text {
     left: 11.5%;
@@ -1620,27 +1635,27 @@
 }
 .program-sm-text {
     left: 58.5%;
-    margin-top: 2.5rem;
+    margin-top: 0.5rem;
     color: #000 !important;
 }
 
 .students-sm-number {
     left: 31%;
-    margin-top: 17.5rem;
+    margin-top: 18.5rem;
 }
 .students-sm-text {
     left: 30%;
-    margin-top: 20.5rem;
+    margin-top: 21.5rem;
     color: #000 !important;
 }
 
 .alumni-sm-number {
     left: 80.5%;
-    margin-top: 17.5rem;
+    margin-top: 18.5rem;
 }
 .alumni-sm-text {
     left: 79.5%;
-    margin-top: 20.5rem;
+    margin-top: 21.5rem;
     color: #000 !important;
 }
 
@@ -2372,7 +2387,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	background-color: rgba(226, 227, 229, 0.60);
 	width: fit-content;
 	padding: 2rem 2rem 1rem 2rem;
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	right: 0;
 }
@@ -2523,7 +2538,7 @@ footer .widget_services ul li:hover {
 	background-size: cover;
 	background-position: center;
 	padding-top: 2rem;
-	font-family: rubik;
+	font-family: Roboto;
 }
 
 .footer-bottom {
@@ -2531,7 +2546,7 @@ footer .widget_services ul li:hover {
 	padding: 25px 0;
 	color: #b0b0b0;
 	border-top: 1px solid rgba(255, 255, 255, 0.05);
-	font-family: rubik;
+	font-family: Roboto;
 }
 
 .footer-bottom ul {
@@ -3016,10 +3031,12 @@ button.back-to-top {
 
 .img-news {
 	padding: 0;
+	background: #167687 !important;
 }
 
 .img-news :hover {
 	cursor: pointer;
+	opacity: 0.4;
 }
 
 .people-section .title-head span {
@@ -3127,7 +3144,7 @@ footer .footer-link :hover {
 
 .event-time .event-date {
 	font-size: 40px;
-	font-family: rubik;
+	font-family: Roboto;
 	font-weight: 100;
 	margin: -6px 0;
 }
@@ -3164,7 +3181,7 @@ footer .footer-link :hover {
 }
 
 .event-info .event-title {
-	font-family: rubik;
+	font-family: Roboto;
 	font-weight: 500;
 	margin-bottom: 5px;
 	/* font-size:24px; */
@@ -3183,7 +3200,7 @@ footer .footer-link :hover {
 .event-info p {
 	color: #454545;
 	margin-bottom: 0;
-	font-family: rubik;
+	font-family: Roboto;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 24px;
@@ -3374,7 +3391,7 @@ footer .footer-link :hover {
 
 .counter-style-1 span {
 	font-size: 45px;
-	font-family: rubik;
+	font-family: Roboto;
 	font-weight: 700;
 }
 
@@ -3882,7 +3899,7 @@ footer .footer-link :hover {
 	font-size: 120px;
 	font-weight: 300;
 	line-height: 90px;
-	font-family: rubik;
+	font-family: Roboto;
 	color: #fff;
 }
 
