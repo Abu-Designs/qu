@@ -3078,7 +3078,42 @@ button.back-to-top {
 
 .img-news :hover {
 	cursor: pointer;
+	/* opacity: 0.4; */
+}
+
+.news-info{
+	display: none;
+}
+
+.news-hover-color{
+	background-color: #10798F;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
 	opacity: 0.4;
+	display: none;
+}
+
+.img-news > .news-info h6 , .news-info h4, .news-info p, .news-info a{
+	color: white !important;
+	line-height: normal;
+	margin-bottom: 5px;
+}
+
+.news-info a{
+	text-decoration: underline !important;
+}
+
+.img-news:hover > .news-info,
+.img-news:hover > .news-hover-color{
+	display: block;
+}
+
+.img-news:hover > .news-info{
+	padding-left: 50px;
+	padding-bottom: 30px;
+	bottom: 0;
 }
 
 .people-section .title-head span {
