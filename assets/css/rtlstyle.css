@@ -1,4 +1,9 @@
+@font-face {
+    font-family:'dinar';
+    src: url('../fonts/GE-Dinar-Two-Medium_1E.otf');
+  }
 body {
+    font-family: dinar !important;
     direction: rtl;
 }
 
