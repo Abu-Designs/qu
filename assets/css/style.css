@@ -20,6 +20,11 @@
 ======================================
 */
 
+@font-face {
+    font-family:'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+  }
+
 /*=================================
 	1. HEADER
 =================================*/
@@ -86,7 +91,7 @@ a {
 .top-phonenumber {
 	font-size: small;
 	color: #000;
-	font-family: Arial;
+	font-family: 'Roboto' !important;
 }
 
 .top-phonenumber p {
@@ -962,8 +967,8 @@ a {
 	right: 0px;
 	visibility: hidden;
 	width: 100%;
-	font-family: Montserrat;
-	margin-top: 20px;
+	font-family: 'Roboto' !important;
+		margin-top: 20px;
 	z-index: 9;
 }
 
@@ -2372,7 +2377,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 	padding: 15px;
 	position: relative;
 	font-size: 15px;
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Roboto' !important;
 	font-weight: 400;
 }
 
@@ -2381,14 +2386,14 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 
 .testimonial-name {
-	font-family: montserrat;
+	font-family: 'Roboto' !important;
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 
 .testimonial-position {
-	font-family: montserrat;
+	font-family: 'Roboto' !important;
 	font-size: 12px;
 	font-style: inherit;
 	text-transform: uppercase;
@@ -2802,7 +2807,7 @@ button.back-to-top {
 	font-size: 24px;
 	margin-top: 0px;
 	margin-bottom: 6px;
-	font-family: roboto;
+	font-family: Roboto;
 	line-height: 34px;
 }
 
