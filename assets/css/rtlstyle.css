@@ -160,3 +160,90 @@ body {
     text-align: right;
     margin-top: 10px;
 }
+.topbar-left ul,
+.topbar-right ul {
+
+	
+	font-family: dinar;
+
+}
+.header-lang-bx .btn {
+
+	font-family: dinar;}
+
+    .menu-links .nav>li {
+      
+        font-family: dinar;
+    }
+    .menu-links .nav>li .sub-menu li a {
+   
+        font-family: dinar;
+    }
+    .menu-links .nav>li .mega-menu {
+   
+        font-family: 'dinar' !important;
+        
+    }
+    .testimonial-text {
+     
+        font-family: 'dinar' !important;
+       
+    }
+    .testimonial-name {
+        font-family: 'dinar' !important;
+    
+    }
+    .testimonial-position {
+        font-family: 'dinar' !important;
+     
+    }
+    .footer-top {
+      
+        font-family: dinar;
+    }
+    .footer-bottom {
+
+        font-family: dinar;
+    }
+    .blog-post .post-title,
+.recent-news .post-title {
+
+	font-family: dinar;
+
+}
+.event-time .event-date {
+
+	font-family: dinar;
+
+}
+
+.event-info .event-title {
+	font-family: dinar;
+
+}
+.event-info p {
+
+	font-family: dinar;}
+    .counter-style-1 span {
+ 
+        font-family: dinar;
+      
+    }
+    .pricingtable-bx {
+   
+        font-family: dinar;
+  
+    }
+    p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+	font-family: 'dinar' !important;
+}
+    
+
+    
