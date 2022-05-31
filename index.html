@@ -183,7 +183,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="top-bar">
+			<div class="top-bar sticky-top-header">
 				<div class="container">
 					<div class="row d-flex justify-content-between">
 						<img src="assets/images/qulogo.svg" width="200" />
@@ -519,7 +519,7 @@
 					<!-- Quick Facts -->
 
 					<br />
-				
+
 
 					<!-- Latest Events -->
 					<div class="section-area event-section content-inner service-info-bx">
@@ -1005,6 +1005,15 @@
 
 				});
 			}
+
+			$(window).scroll(function () {
+				if ($(window).scrollTop() >= 130) {
+					$('.sticky-top-header').addClass('fixed');
+				}
+				else {
+					$('.sticky-top-header').removeClass('fixed');
+				}
+			});
 		</script>
 
 		<script>
