@@ -1676,6 +1676,21 @@ a {
 	margin-top: 11.3rem;
 	color: #000 !important;
 }
+.colleges-sm-img {
+	left: 4%;
+    margin-top: 10.3rem;
+    position: absolute;
+    width: 50px
+
+}
+.colleges-xs-img {
+    left: 13%;
+    margin-top: -5rem;
+    position: absolute;
+    width: 50px !important;
+
+}
+
 
 .program-sm-number {
 	left: 84.5%;
@@ -1687,6 +1702,21 @@ a {
 	margin-top: 0.5rem;
 	color: #000 !important;
 }
+.program-sm-img {
+	left: 21%;
+    margin-top: 10.3rem;
+    position: absolute;
+    width: 50px
+
+}
+.program-xs-img {
+	right: 25%;
+    margin-top: -5rem;
+    position: absolute;
+    width: 50px !important;
+
+}
+
 
 .students-sm-number {
 	left: 31%;
@@ -1697,6 +1727,20 @@ a {
 	left: 30%;
 	margin-top: 21.5rem;
 	color: #000 !important;
+}
+.students-sm-img{
+	left: 55.3%;
+    margin-top: 6rem;
+    position: absolute;
+    width: 50px;
+
+}
+.students-xs-img {
+	left: 13%;
+    margin-top: 8rem;
+    position: absolute;
+    width: 50px !important;
+
 }
 
 .alumni-sm-number {
@@ -1709,6 +1753,20 @@ a {
 	margin-top: 21.5rem;
 	color: #000 !important;
 }
+.alumni-sm-img {
+	left: 48%;
+    margin-top: 14.3rem;
+    position: absolute;
+    width: 50px;
+
+}
+.alumni-xs-img {
+	right: 25%;
+    margin-top: 8rem;
+    position: absolute;
+    width: 50px !important;
+
+}
 
 .research-sm-number {
 	left: 29.5%;
@@ -1720,10 +1778,32 @@ a {
 	margin-top: 18.5rem;
 	color: #000 !important;
 }
+.research-sm-img{
+	left: 70%;
+    margin-top: 14rem;
+    position: absolute;
+    width: 50px;
+
+
+}
+.research-xs-img {
+	left: 13%;
+    margin-top: 5.3rem;
+    position: absolute;
+    width: 44px !important;
+
+}
 
 .projects-sm-number {
 	left: 63.5%;
 	margin-top: 5.5rem;
+}
+.projects-sm-img{
+	right: 2%;
+    margin-top: 4rem;
+    position: absolute;
+    width: 50px;
+
 }
 
 .projects-sm-text {
@@ -1731,6 +1811,14 @@ a {
 	margin-top: 7rem;
 	color: #000 !important;
 }
+.projects-xs-img {
+	right: 13%;
+    margin-top: -4.3rem;
+    position: absolute;
+    width: 50px !important;
+
+}
+
 
 @media only screen and (max-width: 770px) {
 
