@@ -4902,15 +4902,169 @@ article .title {
 		position: absolute;
 	}
 }
-@media only screen and (max-width: 767px) {
+
+@media only screen and (max-width: 790px) {
 	.colleges-xs-img {
-		left: 29%;
+		left: 29% !important; 
 		margin-top: -5.5rem;
 		position: absolute;
 		width: 50px !important;
 	}
 	.colleges-sm-text {
-		left: 26.5%;
-	
+		left: 27.5%;
+		margin-top: 11.3rem;
+		color: #000 !important;
 	}
+	.colleges-sm-number {
+		left: 30.5% !important;
+		margin-top: 1rem;
+	}
+	.program-xs-img {
+		right: 36%;
+		margin-top: -5.5rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.program-sm-number {
+		left: 70.5%;
+		margin-top: 6rem;
+	}
+	.students-xs-img {
+		left: 29%;
+		margin-top: 9rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.students-sm-text {
+		left: 39%;
+		margin-top: 21.5rem;
+		
+	}
+	
+	.students-sm-number {
+		left: 40%;
+		margin-top: 19.5rem;
+	}
+	.alumni-xs-img {
+		right: 36%;
+		margin-top: 9rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.alumni-sm-number {
+		left: 68.5%;
+		margin-top: 19.5rem;
+	}
+	.alumni-sm-text {
+		left: 67.5%;
+		margin-top: 21.5rem;
+		color: #000 !important;
+	}
+	.research-xs-img {
+		left: 23%;
+		margin-top: 7.3rem;
+		position: absolute;
+		width: 44px !important;
+	}
+	.research-sm-text {
+		left: 33.5%;
+		margin-top: 20.5rem;
+		color: #000 !important;
+	}
+	.research-sm-number {
+		left: 35.5%;
+		margin-top: 19rem;
+	}
+	.projects-sm-text {
+		left: 34.5%;
+	;
+	}
+	.projects-sm-number {
+		left: 57.5%;
+		margin-top: 5.5rem;
+	}
+	.projects-xs-img {
+		right: 24%;
+		margin-top: -6.3rem;
+		
+	}
+}
+@media only screen and (max-width: 480px) {
+	.colleges-xs-img {
+		left: 17% ;
+		margin-top: -5.5rem ;
+		position: absolute;
+		width: 50px !important;
+	}
+	.program-xs-img {
+		right: 28%;
+		margin-top: -5.5rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.students-xs-img {
+		left: 17%;
+		margin-top: 8.5rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.alumni-xs-img {
+		right: 28%;
+		margin-top: 8.5rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.projects-xs-img {
+		right: 14%;
+		margin-top: -5.3rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.research-xs-img {
+		left: 14%;
+		margin-top: 6.3rem;
+		position: absolute;
+		width: 44px !important;
+	}
+	
+}
+@media only screen and (max-width: 375px) {
+	.colleges-xs-img {
+		left: 13%;
+		margin-top: -5rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.alumni-xs-img {
+		right: 25%;
+		margin-top: 8rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.program-xs-img {
+		right: 25%;
+		margin-top: -5rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	
+	.students-xs-img {
+		left: 13%;
+		margin-top: 8rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.projects-xs-img {
+		right: 13%;
+		margin-top: -4.3rem;
+		position: absolute;
+		width: 50px !important;
+	}
+	.research-xs-img {
+		left: 13%;
+		margin-top: 5.3rem;
+		position: absolute;
+		width: 44px !important;
+	}
+	
 }
