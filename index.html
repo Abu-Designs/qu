@@ -63,7 +63,7 @@
 		<!-- Header Top ==== -->
 		<header class="header rs-nav iner-menu header-transparent  " style="position: absolute;
 		width: 100%;">
-			<div class="top-bar" style="padding: 0;">
+			<div class="top-bar social-top-header" style="padding: 0;">
 				<div class="container">
 					<div class="row d-flex top-info">
 						<div class="left-side" style="display: flex;">
@@ -1019,14 +1019,16 @@
 				});
 			}
 
-			$(window).scroll(function () {
-				if ($(window).scrollTop() >= 130) {
-					$('.sticky-top-header').addClass('fixed');
-				}
-				else {
-					$('.sticky-top-header').removeClass('fixed');
+			window.addEventListener('scroll', () => {
+				if (window.scrollY >= 130) {
+					document.querySelector('.sticky-top-header').classList.add('fixed');
+					document.querySelector('.social-top-header').style.display = "none";
+				} else {
+					document.querySelector('.sticky-top-header').classList.remove('fixed');
+					document.querySelector('.social-top-header').style.display = "block";
 				}
 			});
+
 		</script>
 
 		<script>
