@@ -4826,7 +4826,7 @@ article .title {
 	color: #ffffff;
 }
 
-/* hhh */
+/* info graph */
 @media only screen and (max-width: 1280px) {
 	.colleges-sm-img {
 		left: 3.5%;
@@ -4902,28 +4902,114 @@ article .title {
 		position: absolute;
 	}
 }
+@media only screen and (max-width: 920px) {
+	.colleges-sm-img {
+		left: 3%;
+		margin-top: 6rem;
+		position: absolute;
+		width: 36px;
+	}
+	.program-sm-img {
+		left: 20.4%;
+		margin-top: 6rem;
+		position: absolute;
+		width: 36px;
+	}
+	.alumni-sm-img {
+		left: 48%;
+		margin-top: 8.5rem;
+		position: absolute;
+		width: 36px;
+	}
+	.students-sm-img {
+		left: 55.3%;
+		margin-top: 3.5rem;
+		position: absolute;
+		width: 36px;
+	}
+	.projects-text {
+		left: 71.5%;
+		margin-top: 2.9%;
+	font-size: 14px !important;}
 
+	.projects-sm-img {
+		right: 1%;
+		margin-top: 2rem;
+		width: 36px}
+		.research-sm-img {
+			left: 70%;
+			margin-top: 8.5rem
+		rem
+		;
+			position: absolute;
+			width: 36px;
+	
+}
+@media only screen and (max-width: 830px) {
+	.colleges-sm-img {
+		left: 3%;
+		margin-top: 5.5rem;
+		position: absolute;
+		width: 33px;
+	}
+	.colleges-number {
+		left: 4%;}
+		.program-sm-img {
+			left: 20.4%;
+			margin-top: 5.5rem;
+			position: absolute;
+			width: 33px;
+		}	
+		.alumni-sm-img {
+			left: 48%;
+			margin-top: 7.7rem;
+			position: absolute;
+			width: 33px;
+		}
+		.students-sm-img {
+			left: 55.3%;
+			margin-top: 3rem;
+			position: absolute;
+			width: 33px;
+		}
+		.research-sm-img {
+			left: 70%;
+			margin-top: 7.5rem;
+			position: absolute;
+			width: 33px
+		
+		
+		}
+		.projects-text {
+			margin-top: 2.9%;
+			left: 71.5%;
+			font-size: 14px !important}
+			.projects-sm-img {
+			
+				width: 33px;
+	
+		}}
 @media only screen and (max-width: 790px) {
 	.colleges-xs-img {
-		left: 29% !important; 
+		left: 29% ; 
 		margin-top: -5.5rem;
 		position: absolute;
-		width: 50px !important;
+		width: 50px ;
 	}
 	.colleges-sm-text {
 		left: 27.5%;
 		margin-top: 11.3rem;
-		color: #000 !important;
+		color: #000 ;
 	}
 	.colleges-sm-number {
-		left: 30.5% !important;
+		left: 30.5% ;
 		margin-top: 1rem;
 	}
 	.program-xs-img {
 		right: 36%;
 		margin-top: -5.5rem;
 		position: absolute;
-		width: 50px !important;
+		width: 50px ;
 	}
 	.program-sm-number {
 		left: 70.5%;
@@ -4933,7 +5019,7 @@ article .title {
 		left: 29%;
 		margin-top: 9rem;
 		position: absolute;
-		width: 50px !important;
+		width: 50px ;
 	}
 	.students-sm-text {
 		left: 39%;
@@ -5028,7 +5114,84 @@ article .title {
 	}
 	
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
+	.colleges-sm-number {
+		left: 20.5%;
+	}
+	.colleges-xs-img {
+		left: 21%;}
+   .colleges-sm-text {
+			left: 17.5%;}
+	.program-xs-img {
+				right: 31%;}
+
+	.program-sm-number {
+					left: 77.5%;}
+
+.students-xs-img {
+		left: 20%;
+}
+.alumni-xs-img {
+    right: 30%;}
+	.alumni-sm-text {
+		left: 75.5%;}
+		.alumni-sm-number {
+			left: 78.5%;}
+			.projects-sm-text {
+				left: 19.5%;
+			}	
+			.projects-xs-img {
+				right: 14%;}
+				.research-xs-img {
+					left: 14%;}		
+		}
+			
+@media only screen and (max-width: 480px) {
+	.colleges-xs-img {
+		left: 14%;}
+		.colleges-sm-number {
+			left: 13.5%;
+	
+		}
+		.colleges-sm-text {
+			left: 11.5%;}
+			.program-xs-img {
+				right: 26%;}
+
+	.program-sm-number {
+    left: 84.5%;}
+	.students-sm-number {
+		left: 18%;
+		margin-top: 24.5rem;}
+		.students-sm-text {
+			left: 13%;
+			margin-top: 26.5rem;
+		}
+		.alumni-sm-text {
+			left: 63.5%;
+			margin-top: 26.5rem;}
+			.alumni-sm-number {
+				left: 66.5%;
+				margin-top: 24.5rem;
+			}
+			.projects-sm-text {
+				left: 13.5%;
+			}
+}
+@media only screen and (max-width: 420px) {
+	.colleges-sm-number {
+		left: 14.5%;
+		margin-top: 2rem;
+	}
+	.colleges-sm-text {
+		left: 10.5%;
+		margin-top: 11.8rem;
+		color: #000;
+	}
+	.program-sm-number {
+		left: 81.5%;
+		margin-top: 6rem;
+	}
 	.colleges-xs-img {
 		left: 13%;
 		margin-top: -5rem;
@@ -5041,13 +5204,28 @@ article .title {
 		position: absolute;
 		width: 50px !important;
 	}
+	.alumni-sm-text {
+		left: 61.5%;
+		margin-top:25.5rem;
+		color: #000 !important;
+	}
+	.alumni-sm-number {
+		left: 64.5%;
+		margin-top: 23.5rem;
+	}
 	.program-xs-img {
 		right: 25%;
 		margin-top: -5rem;
 		position: absolute;
 		width: 50px !important;
 	}
-	
+	.students-sm-text {
+		left: 10%;
+		margin-top: 25.5rem;
+	}.students-sm-number {
+		left: 16%;
+		margin-top: 24rem;
+	}
 	.students-xs-img {
 		left: 13%;
 		margin-top: 8rem;
@@ -5060,6 +5238,9 @@ article .title {
 		position: absolute;
 		width: 50px !important;
 	}
+	.projects-sm-text {
+		left: 10.5%;
+	}
 	.research-xs-img {
 		left: 13%;
 		margin-top: 5.3rem;
@@ -5067,4 +5248,96 @@ article .title {
 		width: 44px !important;
 	}
 	
+}
+
+@media only screen and (max-width: 280px) {
+	.colleges-xs-img {
+		left: 13%;
+		margin-top: -3.7rem;
+		position: absolute;
+		width: 39px !important;
+	}	
+	.colleges-sm-text {
+		left: 10.5%;
+		margin-top: 11rem;
+		color: #000 !important;
+	}
+	.program-sm-number {
+		right: 13%;
+		margin-top: 7rem;
+	}
+	.program-sm-text {
+		left: 52.5%;
+		margin-top: 2rem;
+		color: #000 !important;
+	}
+	.program-sm-number {
+		left: 51%;
+		margin-top: 4rem;
+	}
+	.colleges-sm-number {
+		left: 13.5% !important;
+		margin-top: 4rem;
+	}
+	.program-xs-img {
+		right: 25%;
+		margin-top: -3.5rem;
+		position: absolute;
+		width: 38px !important;
+	}
+	.students-xs-img {
+		left: 13%;
+		margin-top: 6rem;
+		position: absolute;
+		width: 39px !important;
+	}
+	.alumni-xs-img {
+		right: 25%;
+		margin-top: 6rem;
+		position: absolute;
+		width: 39px !important;
+	}
+	.students-sm-number {
+		left: 16%;
+		margin-top: 20.5rem;
+	}
+	.students-sm-text {
+		left: 9%;
+		margin-top: 22rem;
+	}
+	.alumni-sm-text {
+		left: 58.5%;
+		margin-top: 22rem;
+		color: #000 !important;
+	}
+	.alumni-sm-number {
+		left: 64.5%;
+		margin-top: 20.5rem;
+	}
+	.projects-sm-text {
+		left: 7.5%;
+		font-size: 14px !important;
+	}
+	.projects-sm-number {
+		left: 52.5%;
+		margin-top: 9.5rem;
+	}
+	.projects-xs-img {
+		right: 14%;
+		margin-top: -3.3rem;
+		position: absolute;
+		width: 39px !important;
+	}
+	.research-xs-img {
+		left: 13%;
+		margin-top: 4rem;
+		position: absolute;
+		width: 33px !important;
+	}
+	.research-sm-text {
+		left: 9.5%;
+		margin-top: 20.5rem;
+		color: #000 !important;
+	}
+}
 }
