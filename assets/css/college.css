@@ -29,3 +29,7 @@
         margin-left: 0px;
       
       }
+      .portfolio-bx .portfolio-info-bx, .btn.outline:hover, .course-info-list ul li a.active, .course-info-list ul li a:hover, .btn, .profile-tabnav .nav li a.active, button.back-to-top, .upcoming-event-carousel.owl-btn-1 .owl-prev, .upcoming-event-carousel.owl-btn-1 .owl-next, .courses-carousel .owl-nav .owl-next, .courses-carousel .owl-nav .owl-prev, .recent-news-carousel .owl-nav .owl-next, .recent-news-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next, .testimonial-carousel .owl-nav .owl-prev {
+ 
+        color: #fff;
+    }
