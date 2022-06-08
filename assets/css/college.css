@@ -1,0 +1,31 @@
+.testimonial-thumb {
+    width: 85px;
+    height: 89px;}
+    a, .text-primary, .primary li:before, .menu-links .nav > li.active > a, .menu-links .nav > li:hover > a, .menu-links .nav > li .mega-menu > li ul a:hover, .menu-links .nav > li .sub-menu li:hover > a, footer a:active, footer a:focus, footer a:hover, footer h1 a, footer h2 a, footer h3 a, footer h4 a, footer h5 a, footer h6 a, footer p a, .testimonial-1 .testimonial-position, .acod-head a:after, .acod-head a, .acod-head a:hover, .acod-head a.collapsed:hover, .ttr-tabs .nav-tabs > li > a i, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .btn.outline, .btn-link:hover {
+       text-decoration: none;
+    }
+    .testimonial-bx .testimonial-info:after {
+  
+        top: 60px;
+     
+    }
+    .event-info p {
+  
+        height: 50px;
+        overflow: hidden;
+    }
+    .flex-header {
+        display: flex;
+      }
+      
+      .line {
+        display: flex;
+        flex-grow: 1;
+        height: 2px;
+        align-self: center;
+        margin-top: 0px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+      
+      }
