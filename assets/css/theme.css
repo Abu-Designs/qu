@@ -1,22 +1,19 @@
 :root{
-    --firstcolor:#163762;
-    --secoundcolor:#305194;
-    --thirdcolor:#168570;
+    --firstcolor:#ea127b;
+    --secoundcolor:#4e4b4a;
+
 }
 
     .search-bx.style-1 .input-group-btn button{
         background-color: var(--secoundcolor);
     }
-    .firstcolor{
-        color: var(--firstcolor);
-    }
-
+ 
     a, .text-primary, .primary li:before, .menu-links .nav > li.active > a, .menu-links .nav > li:hover > a, .menu-links .nav > li .mega-menu > li ul a:hover, .menu-links .nav > li .sub-menu li:hover > a, footer a:active, footer a:focus, footer a:hover, footer h1 a, footer h2 a, footer h3 a, footer h4 a, footer h5 a, footer h6 a, footer p a, .testimonial-1 .testimonial-position, .acod-head a:after, .acod-head a, .acod-head a:hover, .acod-head a.collapsed:hover, .ttr-tabs .nav-tabs > li > a i, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .btn.outline, .btn-link:hover {
-        color: var(--thirdcolor);
+        color: var(--secoundcolor);
     }
     .line {
     
-        background-color: var(--thirdcolor);
+        background-color: var(--secoundcolor);
       }
       .event-time {
       
@@ -29,9 +26,69 @@
     }
     .portfolio-bx .portfolio-info-bx, .btn.outline:hover, .course-info-list ul li a.active, .course-info-list ul li a:hover, .btn, .profile-tabnav .nav li a.active, button.back-to-top, .upcoming-event-carousel.owl-btn-1 .owl-prev, .upcoming-event-carousel.owl-btn-1 .owl-next, .courses-carousel .owl-nav .owl-next, .courses-carousel .owl-nav .owl-prev, .recent-news-carousel .owl-nav .owl-next, .recent-news-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next, .testimonial-carousel .owl-nav .owl-prev {
         background-color: var(--firstcolor);
-        color: #fff;
+     
+    }
+    .upcoming-event-carousel.owl-btn-1 .owl-prev,.upcoming-event-carousel.owl-btn-1 .owl-next{
+        color: var(--firstcolor);
     }
     .course-info-list ul li a.active:hover, .course-info-list ul li a:hover, .btn:hover, .profile-tabnav .nav li a.active:hover, button.back-to-top:hover, .upcoming-event-carousel.owl-btn-1 .owl-prev:hover, .upcoming-event-carousel.owl-btn-1 .owl-next:hover, .courses-carousel .owl-nav .owl-next:hover, .courses-carousel .owl-nav .owl-prev:hover, .recent-news-carousel .owl-nav .owl-next:hover, .recent-news-carousel .owl-nav .owl-prev:hover, .testimonial-carousel .owl-nav .owl-next:hover, .testimonial-carousel .owl-nav .owl-prev:hover {
-        background-color: var(--thirdcolor);
+        background-color: var(--secoundcolor);
       
     }
+    .college-header-menu .nav>li:after {
+ 
+        background-color: var(--secoundcolor);
+
+      }
+      .card-links:nth-of-type(1),
+.card-links:nth-of-type(3) {
+  background-color: var(--firstcolor) !important;
+}
+.card-links:nth-of-type(2),
+.card-links:nth-of-type(4) {
+  background-color: var(--secoundcolor) !important;
+}
+.college-header-links {
+    background-color: var(--firstcolor) !important;
+ 
+  }
+  .college-header-menu .nav>li>a:hover{
+      background-color: var(--secoundcolor);
+  }
+    
+  .news-hover-color {
+    background-color: var(--firstcolor);
+   
+}
+.event-left-section:hover>.event-left-side {
+  
+    border-left: 5px solid var(--secoundcolor);
+}
+.event-section .event-title, .event-section .event-month, .media-post {
+    color: var(--secoundcolor);
+}
+.calender-year {
+    background-color: var(--firstcolor);
+  
+}
+.table .row .cell.active span {
+    border-bottom: 5px solid var(--firstcolor);
+   
+}
+button.back-to-top {
+
+    background-color: var(--firstcolor) !important;
+}
+.firstcolor{
+    color: var(--firstcolor)important;
+}
+.firstcolor-bg{
+    background-color: var(--firstcolor)important;
+}
+
+.secoundcolor{
+    color: var(--secoundcolor)important;
+}
+.secoundcolor-bg{
+    background-color: var(--firstcolor) important;
+}

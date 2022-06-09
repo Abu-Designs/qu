@@ -1,5 +1,5 @@
 .college-header-links {
-  background-color: var(--firstcolor) !important;
+
   margin-bottom: -12px;
   border-radius: 10px 10px 0 0;
 }
@@ -20,7 +20,7 @@
     height: 20px;
     position: absolute;
     left: -1px;
-    background-color: var(--thirdcolor);
+
     top: 0;
     top: 50%;
     margin-top: -10px;
@@ -51,17 +51,12 @@
 .carousel-item,
 .carousel-item img {
   height: inherit;
+  object-fit: cover;
 }
 
-.card-links:nth-of-type(1),
-.card-links:nth-of-type(3) {
-  background-color: var(--firstcolor) !important;
-}
 
-.card-links:nth-of-type(2),
-.card-links:nth-of-type(4) {
-  background-color: var(--thirdcolor) !important;
-}
+
+
 
 
 .card-links {
@@ -174,3 +169,41 @@ button.back-to-top,
 
   color: #fff;
 }
+.top-header-left-img {
+  background-image: url(../images/gallery/top-nav-border-right.png);
+ 
+}
+.news img{
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.video-container {
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+.video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.event-left-section>.event-left-side {
+ 
+  border-left: 5px solid #ffffff;
+}
+.accreditation img{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
