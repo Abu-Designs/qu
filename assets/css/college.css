@@ -1,35 +1,176 @@
+.college-header-links {
+  background-color: var(--firstcolor) !important;
+  margin-bottom: -12px;
+  border-radius: 10px 10px 0 0;
+}
+
+.college-header-links {
+  justify-content: flex-end;
+}
+
+@media only screen and (min-width: 992px) {
+  .college-header-links {
+    justify-content: space-between;
+  }
+
+  .college-header-menu .nav>li:after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+    left: -1px;
+    background-color: var(--thirdcolor);
+    top: 0;
+    top: 50%;
+    margin-top: -10px;
+    z-index: 9999;
+  }
+
+  .college-header-menu .nav>li:first-child:after {
+    display: none;
+  }
+
+  .college-header-menu .nav>li>a,
+  #collegeHeaderLink {
+    padding: 10px 12px !important;
+    color: white !important;
+  }
+
+}
+
+.iner-menu .navbar-toggler span {
+  background-color: #FFF;
+  float: right;
+}
+
+#carouselHeaderControls .carousel-inner {
+  height: 35rem;
+}
+
+.carousel-item,
+.carousel-item img {
+  height: inherit;
+}
+
+.card-links:nth-of-type(1),
+.card-links:nth-of-type(3) {
+  background-color: var(--firstcolor) !important;
+}
+
+.card-links:nth-of-type(2),
+.card-links:nth-of-type(4) {
+  background-color: var(--thirdcolor) !important;
+}
+
+
+.card-links {
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  color: #FFF !important;
+  font-size: 1.28em;
+}
+
+.card-links:hover {
+  text-decoration: underline;
+}
+
+.card-links::after {
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #FFF;
+  font-family: FontAwesome;
+  content: "\f105";
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-right: 0.5rem;
+}
+
 .testimonial-thumb {
-    width: 85px;
-    height: 89px;}
-    a, .text-primary, .primary li:before, .menu-links .nav > li.active > a, .menu-links .nav > li:hover > a, .menu-links .nav > li .mega-menu > li ul a:hover, .menu-links .nav > li .sub-menu li:hover > a, footer a:active, footer a:focus, footer a:hover, footer h1 a, footer h2 a, footer h3 a, footer h4 a, footer h5 a, footer h6 a, footer p a, .testimonial-1 .testimonial-position, .acod-head a:after, .acod-head a, .acod-head a:hover, .acod-head a.collapsed:hover, .ttr-tabs .nav-tabs > li > a i, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .btn.outline, .btn-link:hover {
-       text-decoration: none;
-    }
-    .testimonial-bx .testimonial-info:after {
-  
-        top: 60px;
-     
-    }
-    .event-info p {
-  
-        height: 50px;
-        overflow: hidden;
-    }
-    .flex-header {
-        display: flex;
-      }
-      
-      .line {
-        display: flex;
-        flex-grow: 1;
-        height: 2px;
-        align-self: center;
-        margin-top: 0px;
-        margin-right: 20px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-      
-      }
-      .portfolio-bx .portfolio-info-bx, .btn.outline:hover, .course-info-list ul li a.active, .course-info-list ul li a:hover, .btn, .profile-tabnav .nav li a.active, button.back-to-top, .upcoming-event-carousel.owl-btn-1 .owl-prev, .upcoming-event-carousel.owl-btn-1 .owl-next, .courses-carousel .owl-nav .owl-next, .courses-carousel .owl-nav .owl-prev, .recent-news-carousel .owl-nav .owl-next, .recent-news-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next, .testimonial-carousel .owl-nav .owl-prev {
- 
-        color: #fff;
-    }
+  width: 85px;
+  height: 89px;
+}
+
+a,
+.text-primary,
+.primary li:before,
+.menu-links .nav>li.active>a,
+.menu-links .nav>li:hover>a,
+.menu-links .nav>li .mega-menu>li ul a:hover,
+.menu-links .nav>li .sub-menu li:hover>a,
+footer a:active,
+footer a:focus,
+footer a:hover,
+footer h1 a,
+footer h2 a,
+footer h3 a,
+footer h4 a,
+footer h5 a,
+footer h6 a,
+footer p a,
+.testimonial-1 .testimonial-position,
+.acod-head a:after,
+.acod-head a,
+.acod-head a:hover,
+.acod-head a.collapsed:hover,
+.ttr-tabs .nav-tabs>li>a i,
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+.btn.outline,
+.btn-link:hover {
+  text-decoration: none;
+}
+
+.testimonial-bx .testimonial-info:after {
+
+  top: 60px;
+
+}
+
+.event-info p {
+
+  height: 50px;
+  overflow: hidden;
+}
+
+.flex-header {
+  display: flex;
+}
+
+.line {
+  display: flex;
+  flex-grow: 1;
+  height: 2px;
+  align-self: center;
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+}
+
+.portfolio-bx .portfolio-info-bx,
+.btn.outline:hover,
+.course-info-list ul li a.active,
+.course-info-list ul li a:hover,
+.btn,
+.profile-tabnav .nav li a.active,
+button.back-to-top,
+.upcoming-event-carousel.owl-btn-1 .owl-prev,
+.upcoming-event-carousel.owl-btn-1 .owl-next,
+.courses-carousel .owl-nav .owl-next,
+.courses-carousel .owl-nav .owl-prev,
+.recent-news-carousel .owl-nav .owl-next,
+.recent-news-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next,
+.testimonial-carousel .owl-nav .owl-prev {
+
+  color: #fff;
+}
