@@ -1,6 +1,6 @@
 :root{
-    --firstcolor:#ea127b;
-    --secoundcolor:#4e4b4a;
+    --firstcolor:#4b0b6d;
+    --secoundcolor:#576b3a;
 
 }
 
@@ -80,15 +80,35 @@ button.back-to-top {
     background-color: var(--firstcolor) !important;
 }
 .firstcolor{
-    color: var(--firstcolor)important;
+    color: var(--firstcolor)!important;
 }
 .firstcolor-bg{
-    background-color: var(--firstcolor)important;
+    background-color: var(--firstcolor)!important;
 }
 
 .secoundcolor{
-    color: var(--secoundcolor)important;
+    color: var(--secoundcolor)!important;
 }
 .secoundcolor-bg{
-    background-color: var(--firstcolor) important;
+    background-color: var(--firstcolor)! important;
+}
+.list-inline .btn-link{
+    background-color: var(--firstcolor);
+    color: #fff;
+}
+.list-inline .btn-link:hover{
+    background-color: var(--secoundcolor);
+   
+}
+.ovpr-dark:after{
+    background: var(--secoundcolor);
+opacity: 50% ;
+}
+.bg-primary {
+    background-color: var(--firstcolor);
+}
+.courses-search-bx .focused .input-group label,
+.contact-bx .focused .input-group label{
+
+	color:var(--secoundcolor);
 }

@@ -206,4 +206,18 @@ button.back-to-top,
   padding-left: 10px;
   padding-right: 10px;
 }
+.cours-search-bx h3 {
 
+  font-size: 20px;
+}
+.cours-search-bx:hover {
+
+  border: 1px solid rgba(255, 255, 255, 0.7);}
+  .contact-bx .heading-bx {
+    margin-bottom: 5px;
+}
+.action-box img{
+  width: auto;
+  height: 140px;
+  object-fit: cover;
+}
