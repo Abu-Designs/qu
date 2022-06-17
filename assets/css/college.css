@@ -1,3 +1,11 @@
+@font-face {
+  font-family:'helvetica-md ';
+  src: url('../fonts/HelveticaNeueLTProMd.otf');
+}
+@font-face {
+  font-family:'helvetica-lt ';
+  src: url('../fonts/HelveticaNeueLTProLt.otf');
+}
 .college-header-links {
 
   margin-bottom: -12px;
@@ -220,4 +228,24 @@ button.back-to-top,
   width: auto;
   height: 140px;
   object-fit: cover;
+}
+/* new design */
+.title-head{
+  color:#444444;
+  font-weight: 700;
+
+
+}
+.title-head span{
+  font-weight: 400;
+  color:#444444;
+
+}
+.testimonial-content p{
+  margin-bottom: 3px !important;
+  height: 140px;
+  overflow: hidden;
+}
+.testimonial-info h5{
+  margin-bottom: 3px;
 }

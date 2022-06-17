@@ -1,6 +1,6 @@
 :root{
-    --firstcolor:#4b0b6d;
-    --secoundcolor:#576b3a;
+    --firstcolor:#193661;
+    --secoundcolor:#AB4E00;
 
 }
 
@@ -111,4 +111,11 @@ opacity: 50% ;
 .contact-bx .focused .input-group label{
 
 	color:var(--secoundcolor);
+}
+.btn-link{
+    color: var(--firstcolor);
+}
+.btn-link :hover
+{
+    color: var(--secoundcolor);
 }
