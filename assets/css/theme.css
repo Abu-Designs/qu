@@ -1,5 +1,5 @@
 :root{
-    --firstcolor:#193661;
+    --firstcolor:#f00d82;
     --secoundcolor:#AB4E00;
 
 }
@@ -41,6 +41,7 @@
 
       }
       .card-links:nth-of-type(1),
+  
 .card-links:nth-of-type(3) {
   background-color: var(--firstcolor) !important;
 }
@@ -119,3 +120,20 @@ opacity: 50% ;
 {
     color: var(--secoundcolor);
 }
+.b-bottom{
+    border-bottom: var(--secoundcolor) solid 9px
+  }
+  .footer_widget ul li a:hover, [class*="ovbl-"] .counter-style-1 .counter-text, .header-transparent .secondary-menu .btn-link:hover, .header-transparent .menu-links .nav > li:hover > a, .header-transparent .menu-links .nav > li.active > a {
+    color: var(--firstcolor)!important;
+}
+.fill-first {
+    fill:var(--firstcolor)!important ;
+}
+.fill-secound {
+    fill:var(--secoundcolor)!important ;
+}
+.fill-cl .cls-4{
+    fill: var(--firstcolor);
+}
+
+
