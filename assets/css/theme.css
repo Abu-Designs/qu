@@ -136,4 +136,6 @@ opacity: 50% ;
     fill: var(--firstcolor);
 }
 
-
+.college-news-date{
+    background-color: var(--firstcolor);
+}
