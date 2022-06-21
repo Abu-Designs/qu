@@ -1,6 +1,6 @@
 :root{
-    --firstcolor:#f00d82;
-    --secoundcolor:#AB4E00;
+    --firstcolor:#193661;
+    --secoundcolor:#1890ae;
 
 }
 
@@ -101,6 +101,9 @@ button.back-to-top {
     background-color: var(--secoundcolor);
    
 }
+.pt-social-link .btn-link i:hover{
+    color: #fff !important;
+}
 .ovpr-dark:after{
     background: var(--secoundcolor);
 opacity: 50% ;
@@ -139,3 +142,21 @@ opacity: 50% ;
 .college-news-date{
     background-color: var(--firstcolor);
 }
+.share {
+    background: var(--firstcolor);
+    color: white;
+  }
+  
+  .icon-bar a:hover + .college-quick-links , 
+  .college-quick-links:hover{
+    left: 0px !important;
+  }
+  
+  .college-quick-links{
+    background: var(--firstcolor);
+   
+  }
+  .college-quick-links li:hover{
+    background: var(--secoundcolor);
+   
+  }
