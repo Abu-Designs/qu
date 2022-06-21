@@ -352,3 +352,47 @@ button.back-to-top,
 .section-bg{
   background-color: #4444441c;
 }
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 10;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a i{
+  font-size: 25px;
+}
+
+.icon-bar a:hover {
+  opacity: 0.9;
+}
+
+.share {
+  background: #506694;
+  color: white;
+}
+
+.icon-bar a:hover + .college-quick-links , 
+.college-quick-links:hover{
+  left: 0px !important;
+}
+
+.college-quick-links{
+  background: #506694;
+  left: -50px;
+  position: absolute;
+}
