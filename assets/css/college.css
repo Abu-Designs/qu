@@ -249,13 +249,13 @@ button.back-to-top,
 
 .college-news-text-section{
   background-color: #EAEAEA;
-  padding: 4rem 2rem 2rem;
+  padding: 3rem 2rem 2rem;
 }
 
 .college-news-date{
   position: absolute;
   top: 12rem;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   padding: 0.5rem;
   color: #FFF;
@@ -270,6 +270,9 @@ button.back-to-top,
 .college-news-text{
   font-size: larger;
   font-weight: 400;
+  height: 50px;
+
+      overflow: hidden;
 }
 
 .college-news-carousel img{
@@ -289,23 +292,24 @@ button.back-to-top,
 }
 
 .college-news-carousel .carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 65px;
+{   font-family: "FontAwesome";
+  content: "\f105";
+  font-size: 44px;
   color: #434343;
   font-weight: 300;
 }
 
 .college-news-carousel .carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 65px;
+  font-family: "FontAwesome";
+  content: "\f104";
+  font-size: 44px;
   color: #434343;
   font-weight: 300;
 }
 
 .testimonial-content p{
   margin-bottom: 3px !important;
-  height: 140px;
+  height: 170px;
   overflow: hidden;
 }
 .testimonial-info h5{
@@ -395,4 +399,9 @@ button.back-to-top,
 
   left: -50px;
   position: absolute;
+}
+.welcome-img{
+  height: 370px;
+  width: 100%;
+  object-fit: cover;
 }
