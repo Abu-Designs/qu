@@ -5,6 +5,7 @@
 body {
     font-family: dinar !important;
     direction: rtl;
+    text-align: right;
 }
 
 .menu-links .nav {
@@ -75,6 +76,7 @@ body {
 
 .title-head {
     text-align: right;
+    display: block;
 }
 
 .research-section {
@@ -259,7 +261,7 @@ a {
 }
 .card-links::after {
 right: unset;
-    left: 5px;
+    left: 20px;
   
     font-family: FontAwesome;
     content: "\f104";}
@@ -305,4 +307,11 @@ element.style {
             .courses-carousel .owl-nav {
                
                 left: 10px;
+            }
+            .card-links {
+              padding-left: unset;
+                padding-right: 40px;
+            }
+            .college-quick-links{
+                list-style-type: none;
             }
