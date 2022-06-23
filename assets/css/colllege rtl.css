@@ -249,11 +249,11 @@ body {
     font-family: dinar;
 }
 
-.counter-style-1{
+.counter-style-1 {
     text-align: center;
 }
 
-.counter-style-1 .svg-icon{
+.counter-style-1 .svg-icon {
     margin: 0 auto;
 }
 
@@ -374,19 +374,19 @@ element.style {}
     list-style-type: none;
 }
 
-.college-news-carousel-controls{
+.college-news-carousel-controls {
     left: 30px;
     right: auto;
 }
 
-.college-news-carousel .carousel-control-prev-icon:after{
+.college-news-carousel .carousel-control-prev-icon:after {
     content: "\f105";
 }
 
-.college-news-carousel .carousel-control-next-icon:after{
+.college-news-carousel .carousel-control-next-icon:after {
     content: "\f104";
 }
 
-.courses-carousel .owl-nav{
+.courses-carousel .owl-nav {
     text-align: left;
 }
