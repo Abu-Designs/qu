@@ -1,7 +1,8 @@
 @font-face {
-    font-family:'dinar';
+    font-family: 'dinar';
     src: url('../fonts/GE-Dinar-Two-Medium_1E.otf');
-  }
+}
+
 body {
     font-family: dinar !important;
     direction: rtl;
@@ -56,10 +57,10 @@ body {
 .menu-bar .menu-links {
     float: left;
     direction: ltr !important;
-    
+
 }
 
-.rs-nav .menu-links.show{
+.rs-nav .menu-links.show {
     left: auto !important;
     right: -1px !important;
 }
@@ -144,99 +145,131 @@ body {
         width: 0 !important;
     }
 }
-.heading-bx .title-head{
+
+.heading-bx .title-head {
     float: right;
 }
-.ml-auto, .mx-auto {
-    margin-right: auto!important;
+
+.ml-auto,
+.mx-auto {
+    margin-right: auto !important;
     margin-left: unset !important;
 }
-.widget .widget-title, .widget .post-title {
+
+.widget .widget-title,
+.widget .post-title {
     text-transform: unset;
     text-align: right;
 }
-.ttr-post-header .post-title{
+
+.ttr-post-header .post-title {
     padding-right: 20px;
 }
-.media-post{
+
+.media-post {
     text-align: right;
     margin-top: 10px;
 }
+
 .topbar-left ul,
 .topbar-right ul {
 
-	
-	font-family: dinar;
+
+    font-family: dinar;
 
 }
+
 .header-lang-bx .btn {
 
-	font-family: dinar;}
+    font-family: dinar;
+}
 
-    .menu-links .nav>li {
-      
-        font-family: dinar;
-    }
-    .menu-links .nav>li .sub-menu li a {
-   
-        font-family: dinar;
-    }
-    .menu-links .nav>li .mega-menu {
-   
-        font-family: 'dinar' !important;
-        
-    }
-    .testimonial-text {
-     
-        font-family: 'dinar' !important;
-       
-    }
-    .testimonial-name {
-        font-family: 'dinar' !important;
-    
-    }
-    .testimonial-position {
-        font-family: 'dinar' !important;
-     
-    }
-    .footer-top {
-      
-        font-family: dinar;
-    }
-    .footer-bottom {
+.menu-links .nav>li {
 
-        font-family: dinar;
-    }
-    .blog-post .post-title,
-.recent-news .post-title {
+    font-family: dinar;
+}
 
-	font-family: dinar;
+.menu-links .nav>li .sub-menu li a {
+
+    font-family: dinar;
+}
+
+.menu-links .nav>li .mega-menu {
+
+    font-family: 'dinar' !important;
 
 }
+
+.testimonial-text {
+
+    font-family: 'dinar' !important;
+
+}
+
+.testimonial-name {
+    font-family: 'dinar' !important;
+
+}
+
+.testimonial-position {
+    font-family: 'dinar' !important;
+
+}
+
+.footer-top {
+
+    font-family: dinar;
+}
+
+.footer-bottom {
+
+    font-family: dinar;
+}
+
+.blog-post .post-title,
+.recent-news .post-title {
+
+    font-family: dinar;
+
+}
+
 .event-time .event-date {
 
-	font-family: dinar;
+    font-family: dinar;
 
 }
 
 .event-info .event-title {
-	font-family: dinar;
+    font-family: dinar;
 
 }
+
 .event-info p {
 
-	font-family: dinar;}
-    .counter-style-1 span {
- 
-        font-family: dinar;
-      
-    }
-    .pricingtable-bx {
-   
-        font-family: dinar;
-  
-    }
-    p,
+    font-family: dinar;
+}
+
+.counter-style-1{
+    text-align: center;
+}
+
+.counter-style-1 .svg-icon{
+    margin: 0 auto;
+}
+
+.counter-style-1 span {
+
+    font-family: dinar;
+
+}
+
+.pricingtable-bx {
+
+    font-family: dinar;
+
+}
+
+p,
 h1,
 h2,
 h3,
@@ -244,74 +277,116 @@ h4,
 h5,
 h6,
 a {
-	font-family: 'dinar' !important;
+    font-family: 'dinar' !important;
 }
-    
 
-    
-.logo{
+
+
+.logo {
     float: right;
-   
+
 }
-.college-header-links{
+
+.college-header-links {
     margin-top: 20px;
 }
-.card-links{
+
+.card-links {
     text-align: right;
 }
+
 .card-links::after {
-right: unset;
+    right: unset;
     left: 20px;
-  
+
     font-family: FontAwesome;
-    content: "\f104";}
-    p, h1, h2, h3, h4, h5, h6, a{
-        text-align: right;
-    }
-    
-element.style {
+    content: "\f104";
 }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    text-align: right;
+}
+
+element.style {}
+
 .testimonial-thumb {
     width: 85px;
     height: 89px;
 }
+
 .testimonial-thumb {
-   
-    right: -27px;}
-    .testimonial-bx .testimonial-info:after {
-        content: "\f10d";
-        position: absolute;
-        font-family: fontawesome;
-     
-        left: 65px;}
-        .testimonial-bx .testimonial-info h5 {
-          
-            margin-right: 32px;
-        }
-        .testimonial-bx .testimonial-info{
-            margin-right: 32px;
-        }
-        .testimonial-content p{
-            margin-right: 32px !important; 
-        }
-        .line {
-        
-            margin-top: 0px;
-            margin-right: 0px;
-            margin-bottom: 0px;
-            margin-left: 20px;}
-            .section-sp2 {
-              
-                direction: ltr;
-            }
-            .courses-carousel .owl-nav {
-               
-                left: 10px;
-            }
-            .card-links {
-              padding-left: unset;
-                padding-right: 40px;
-            }
-            .college-quick-links{
-                list-style-type: none;
-            }
+
+    right: -27px;
+}
+
+.testimonial-bx .testimonial-info:after {
+    content: "\f10d";
+    position: absolute;
+    font-family: fontawesome;
+
+    left: 65px;
+}
+
+.testimonial-bx .testimonial-info h5 {
+
+    margin-right: 32px;
+}
+
+.testimonial-bx .testimonial-info {
+    margin-right: 32px;
+}
+
+.testimonial-content p {
+    margin-right: 32px !important;
+}
+
+.line {
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.section-sp2 {
+
+    direction: ltr;
+}
+
+.courses-carousel .owl-nav {
+
+    left: 10px;
+}
+
+.card-links {
+    padding-left: unset;
+    padding-right: 40px;
+}
+
+.college-quick-links {
+    list-style-type: none;
+}
+
+.college-news-carousel-controls{
+    left: 30px;
+    right: auto;
+}
+
+.college-news-carousel .carousel-control-prev-icon:after{
+    content: "\f105";
+}
+
+.college-news-carousel .carousel-control-next-icon:after{
+    content: "\f104";
+}
+
+.courses-carousel .owl-nav{
+    text-align: left;
+}
