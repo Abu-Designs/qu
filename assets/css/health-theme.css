@@ -19,7 +19,7 @@
       }
       .event-time {
       
-        background-color: var(--firstcolor);
+        background-color: var(--thirdcolor);
      
     }
     h1, h2, h3, h4, h5, h6 {
@@ -27,11 +27,11 @@
       
     }
     .portfolio-bx .portfolio-info-bx, .btn.outline:hover, .course-info-list ul li a.active, .course-info-list ul li a:hover, .btn, .profile-tabnav .nav li a.active, button.back-to-top, .upcoming-event-carousel.owl-btn-1 .owl-prev, .upcoming-event-carousel.owl-btn-1 .owl-next, .courses-carousel .owl-nav .owl-next, .courses-carousel .owl-nav .owl-prev, .recent-news-carousel .owl-nav .owl-next, .recent-news-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next, .testimonial-carousel .owl-nav .owl-prev {
-        background-color: var(--firstcolor);
+        background-color: var(--thirdcolor);
      
     }
     .upcoming-event-carousel.owl-btn-1 .owl-prev,.upcoming-event-carousel.owl-btn-1 .owl-next{
-        color: var(--firstcolor);
+        color: var(--thirdcolor);
     }
     .course-info-list ul li a.active:hover, .course-info-list ul li a:hover, .btn:hover, .profile-tabnav .nav li a.active:hover, button.back-to-top:hover, .upcoming-event-carousel.owl-btn-1 .owl-prev:hover, .upcoming-event-carousel.owl-btn-1 .owl-next:hover, .courses-carousel .owl-nav .owl-next:hover, .courses-carousel .owl-nav .owl-prev:hover, .recent-news-carousel .owl-nav .owl-next:hover, .recent-news-carousel .owl-nav .owl-prev:hover, .testimonial-carousel .owl-nav .owl-next:hover, .testimonial-carousel .owl-nav .owl-prev:hover {
         background-color: var(--secoundcolor);
@@ -76,7 +76,7 @@
     border-left: 5px solid var(--secoundcolor);
 }
 .event-section .event-title, .event-section .event-month, .media-post {
-    color: var(--secoundcolor);
+    color: var(--thirdcolor);
 }
 .calender-year {
     background-color: var(--firstcolor);
@@ -167,7 +167,7 @@ opacity: 50% ;
     background-color: var(--fourthcolor);
 }
 .share {
-    background: var(--firstcolor);
+    background: var(--secoundcolor);
     color: white;
   }
   

@@ -434,3 +434,42 @@ button.back-to-top,
 .ttr-tilte{
   color: #434343;
 }
+
+ .carousel-control-prev-icon:after {
+  font-family: "FontAwesome";
+  content: "\f104";
+  font-size: 44px;
+  color: #434343;
+  font-weight: 300;
+}
+
+.carousel-control-next-icon:after {
+  font-family: "FontAwesome";
+  content: "\f105";
+  font-size: 44px;
+  color: #434343;
+  font-weight: 300;
+}
+ .carousel-control-prev {
+
+  top: -194px;
+
+  width: 170%;
+
+
+}
+.carousel-control-next{
+  top: -194px;
+
+  width: 12%;
+}
+.img-whnews img{
+  height: 151px;
+  width: 100%;
+  object-fit: cover;
+}
+.news-info img{
+  width: 100px !important;
+  height: auto;
+}
+
