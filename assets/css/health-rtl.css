@@ -393,3 +393,9 @@ element.style {}
 .feature-container .ttr-tilte{
     text-align: center;
 }
+.img-news:hover > .news-info {
+    padding-right: 35px;
+    padding-left: unset;
+    padding-bottom: 30px;
+    bottom: 0;
+  }

@@ -473,3 +473,8 @@ button.back-to-top,
 .news-hover-color {
   width: 85%;
 }
+.img-news:hover > .news-info {
+  padding-left: 35px;
+  padding-bottom: 30px;
+  bottom: 0;
+}
