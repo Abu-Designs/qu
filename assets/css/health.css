@@ -435,7 +435,8 @@ button.back-to-top,
   color: #434343;
 }
 
- .carousel-control-prev-icon:after {
+
+.control-latest-events .carousel-control-prev-icon:after {
   font-family: "FontAwesome";
   content: "\f104";
   font-size: 44px;
@@ -443,26 +444,22 @@ button.back-to-top,
   font-weight: 300;
 }
 
-.carousel-control-next-icon:after {
+.control-latest-events .carousel-control-next-icon:after {
   font-family: "FontAwesome";
   content: "\f105";
   font-size: 44px;
   color: #434343;
   font-weight: 300;
 }
-.carousel-control-prev {
-
+.control-latest-events .carousel-control-prev {
   top: -194px;
-
   width: 170%;
-
-
 }
-.carousel-control-next{
+.control-latest-events .carousel-control-next{
   top: -194px;
-
   width: 12%;
 }
+
 .img-whnews img{
   height: 151px;
   width: 100%;
@@ -473,3 +470,6 @@ button.back-to-top,
   height: auto;
 }
 
+.news-hover-color {
+  width: 85%;
+}
