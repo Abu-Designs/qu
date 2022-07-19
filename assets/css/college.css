@@ -6,6 +6,7 @@
   font-family:'helvetica-lt ';
   src: url('../fonts/HelveticaNeueLTProLt.otf');
 }
+
 .college-header-links {
 
   margin-bottom: -12px;
@@ -251,7 +252,7 @@ button.back-to-top,
 }
 
 .college-news-carousel .carousel-item img{
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .college-news-text-section{
@@ -410,4 +411,92 @@ button.back-to-top,
   height: 370px;
   width: 100%;
   object-fit: cover;
+}
+/* ========================= */
+/* research */
+/* ======================== */
+.slider-info{
+ width: 100%;
+ position: absolute;
+ left: 0;
+ right: 0;
+ bottom: 0;
+
+}
+.slider-info h4{
+  color: #FFF;
+}
+.slider-info p{
+  color: #FFF;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#carouselHeaderControls .carousel-inner {
+  height: 40rem;
+}
+@media only screen and (max-width: 767px){
+  .courses-carousel .owl-nav {
+  
+    margin-top: 0px;
+}
+}
+.sort a{
+  color: #434343;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sort a:hover{
+text-decoration: underline !important;
+
+}
+.sort a:active{
+  text-decoration: underline !important;
+  
+  }
+  .rs-bg{
+    background-image: url(../images/research/rs-bg.jpg);
+  }
+  .research-img{
+    width:  100px;
+    margin-bottom: 15px;
+  }
+  .span-bold{
+    font-weight: 600;
+    font-size:20px;
+  }
+  .research-box {
+    box-shadow: 0 0 25px 0 rgb(29 25 0 / 25%);
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    position: relative;
+    background-color: #7f0d0d;
+}
+.research-action-box img {
+
+  height: 120px;
+
+}
+.research-box .info-bx {
+
+  height: 250px;
+}
+.border-bottom-secound {
+
+  border-bottom: 2px solid !important;
+  width: 100px;
+}
+.research-box .info-bx h5 {
+  color: #fff !important;
+}
+.arrow .fa-angle-right{
+
+  font-size: 60px;
+}
+.banner{
+  height: 367px;
 }

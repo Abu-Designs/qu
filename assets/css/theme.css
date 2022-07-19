@@ -1,6 +1,7 @@
 :root{
-    --firstcolor:#193661;
-    --secoundcolor:#1890ae;
+    --firstcolor:#182f3f;
+    --secoundcolor:#efa11b;
+    --thirdcolor:#b01622;
 
 }
 
@@ -91,7 +92,7 @@ button.back-to-top {
     color: var(--secoundcolor)!important;
 }
 .secoundcolor-bg{
-    background-color: var(--firstcolor)! important;
+    background-color: var(--secoundcolor)! important;
 }
 .list-inline .btn-link{
     background-color: var(--firstcolor);
@@ -160,3 +161,37 @@ opacity: 50% ;
     background: var(--secoundcolor);
    
   }
+  /* ========================= */
+/* research */
+/* ======================== */
+.slider-info{
+   background-color: var(--firstcolor);
+   
+   }
+   .secoundcolor-bg{
+    background-color: var(--secoundcolor)! important;
+}
+.research .event-title a{
+    color: var(--thirdcolor) !important;
+}
+.sort a:hover{
+    color: var(--secoundcolor);
+    
+    }
+    .sort a:active{
+        color: var(--secoundcolor);
+      
+      }
+      .research-box {
+       
+        background-color: var(--firstcolor);
+    }
+    .border-bottom-secound{
+     
+
+border-bottom-color: var(--secoundcolor) !important;
+      }
+      .arrow .fa-angle-right{
+        color: var(--secoundcolor);
+
+      }
