@@ -150,8 +150,8 @@ body {
     float: right;
 }
 
-.ml-auto,
-.mx-auto {
+.ml-auto
+{
     margin-right: auto !important;
     margin-left: unset !important;
 }
@@ -389,4 +389,34 @@ element.style {}
 
 .courses-carousel .owl-nav {
     text-align: left;
+}
+/* ===================== */
+/* ====== research ====== */
+/* ===================== */
+
+.slider-info a h4 ,p{
+    text-align: center;
+}
+.rs .d-flex{
+    display: block !important;
+}
+.rs .sort{
+    margin-right: 290px !important;
+    margin-left: unset;
+}
+.border-bottom-secound{
+    float: right;
+}
+.arrow .fa-angle-right:before {
+    content: "\f104";
+}
+.research-news .row{
+    direction: rtl;
+}
+.section-content .row{
+    direction: rtl;
+}
+.resources .row{
+    direction: rtl;
+
 }

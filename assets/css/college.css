@@ -500,3 +500,8 @@ text-decoration: underline !important;
 .banner{
   height: 367px;
 }
+.rs .sort{
+  margin-left: 70px ;
+  direction: rtl;
+
+}
