@@ -246,4 +246,26 @@ a {
 }
     
 
-    
+    /* events */
+    .event-list .event-title{
+        text-align: right;
+    }
+    .event-list .card-footer h6{
+        text-align: right;
+    }
+    .event-list .card-footer p{
+        text-align: right;
+    }
+.info-bx p{
+    text-align: right;
+
+}
+.course-features li .label{
+    text-align: right;
+    padding-right:10px
+}
+.course-features li .value{
+    text-align: right;
+    padding-right:10px
+
+}

@@ -505,3 +505,69 @@ text-decoration: underline !important;
   direction: rtl;
 
 }
+/* library */
+.cat{
+  padding: 10px;
+margin: 5px;
+  cursor: pointer;
+  border-radius: 5px !important;
+}
+.cat.active .bottom-arrow{
+  opacity: 100%
+  ;
+  }
+
+
+.cat .icon{
+  font-size: 20px;
+}
+.bottom-arrow{
+  position: absolute;
+  bottom: -33px;
+left: 41%;
+  font-size: 50px;
+  opacity: 0;
+}
+.sub-cat{
+  padding: 15px;
+  min-height: 200px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.data-base label{
+  font-weight: 400;
+}
+
+
+.dropdown-menu > li > a{
+  font-weight: 500;
+  font-size: 15px;
+}
+.dropdown-menu > li > a i{
+  font-weight: 500;
+  font-size: 15px;
+}
+.cats .col-sm-3{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.bar{
+  background-image: url(../images/lib/bar.png);
+  height: 34px;
+}
+.action-box {
+  text-align: center;
+}
+.cats .nav-tabs{
+  border-bottom: none;
+}
+.cours-search {
+  margin-bottom:10px
+}
+.alpha{
+  overflow: auto;
+}
+.alpha a{
+  margin-right: 5px;
+  margin-left: 5px;
+}

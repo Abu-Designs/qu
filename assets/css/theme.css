@@ -1,8 +1,7 @@
 :root{
-    --firstcolor:#182f3f;
-    --secoundcolor:#efa11b;
-    --thirdcolor:#b01622;
-
+    --firstcolor:#3A3A6B;
+    --secoundcolor:#7373A9;
+    --thirdcolor:#d4dddd;
 }
 
     .search-bx.style-1 .input-group-btn button{
@@ -195,3 +194,38 @@ border-bottom-color: var(--secoundcolor) !important;
         color: var(--secoundcolor);
 
       }
+      .cat{
+        background-color: var(--thirdcolor);
+        color: var(--firstcolor) !important;
+      }
+      .cat.active{
+        background-color: var(--firstcolor);
+        color: var(--thirdcolor ) !important;
+      }
+      .cat:hover{
+        background-color: var(--firstcolor);
+        color: var(--thirdcolor ) !important;
+      }
+      .bottom-arrow{
+        color: var(--firstcolor);
+      }
+      .sub-cat{
+       background-color: var(--thirdcolor);
+      }
+      .bootstrap-select .dropdown-toggle:active, .bootstrap-select .dropdown-toggle:focus, .bootstrap-select .dropdown-toggle:hover{
+        background-color: var(--firstcolor) !important;
+      }
+    
+      .pagination-bx.gray .pagination > li > a:hover, .pagination-bx.gray .pagination > li > span:hover, .pagination-bx.gray .pagination > li.active > span, .pagination-bx.gray .pagination > li.active > a {
+        background-color: var(--firstcolor);
+       
+    }
+    .pagination li.active a {
+        background-color: #fff;
+        color: var(--firstcolor);
+    }
+   
+    .dropdown-menu > li >a:hover{
+    
+        background-color: var(--thirdcolor);
+    }
