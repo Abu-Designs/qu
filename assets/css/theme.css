@@ -1,7 +1,10 @@
 :root{
+   
     --firstcolor:#3A3A6B;
     --secoundcolor:#7373A9;
     --thirdcolor:#d4dddd;
+
+  
 }
 
     .search-bx.style-1 .input-group-btn button{
@@ -229,3 +232,51 @@ border-bottom-color: var(--secoundcolor) !important;
     
         background-color: var(--thirdcolor);
     }
+      /* Honors */
+      /* =========== */
+      .border-red{
+     border-color:  #A21E29; }
+.border-yellow{
+ border-color:  #E4A613;}
+
+ .border-pink{
+border-color:#BE3E7B;}
+
+.border-blue1{
+ border-color:#1937CB;}
+
+ .border-green1{
+border-color:#159888;}
+
+.border-blue2{
+    border-color:#159888;}
+
+     .border-green2{  border-color:#59B03B;}
+
+     .border-green3{  border-color:#0C7109;}
+
+
+
+.bg-red{
+ background-color: #A21E29;}
+
+.bg-yellow{
+ background-color: #E4A613;}
+
+ .bg-pink{
+ background-color: #BE3E7B;}
+
+.bg-blue1{
+
+background-color: #1937CB;}
+.bg-blue2{ background-color: #2694FF;}
+
+.bg-green1{
+ background-color: #159888;}
+
+
+
+ .bg-green2{ background-color: #59B03B;}
+
+ .bg-green3{ background-color: #0C7109;}
+

@@ -234,7 +234,7 @@ button.back-to-top,
     margin-bottom: 5px;
 }
 .action-box img{
-  width: auto;
+  width: 262px;
   height: 140px;
   object-fit: cover;
 }
@@ -570,4 +570,110 @@ left: 41%;
 .alpha a{
   margin-right: 5px;
   margin-left: 5px;
+}
+.service-bx .info-bx{
+  padding: 10px 10px;
+}
+.service-bx [class*="feature-"] {
+  
+  margin-bottom: -30px;
+}
+.info-bx h4{
+  font-size: 16px;
+ 
+  font-weight: 600;
+}
+.services .row .col-sm-3{
+  margin-top: 20px;
+}
+.service-bx [class*="feature-"] {
+ 
+  top: -26px;
+  margin-bottom: -15px;
+}
+.under-header{
+  background-image: url('../images/honor/honor-pattern.png');
+  height: 40px;
+}
+.mainshowarea:before {
+  width: 400px;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  background: url(../images/lib/showarea-pattern.png) no-repeat right top;
+  text-align: right;
+  z-index: 5;
+  background-size: contain;
+}
+.mainshowarea .carousel-caption{
+  background-color: #0f020278;
+  padding: 20px;}
+
+  .dropdown-item:active{
+ background-color: #7f0d0d;
+  }
+/* ================= */
+   /* honors */
+   /* ============= */
+   .img-top{
+    position: relative;
+    top: 66px;
+   }
+   .ev-bg{
+    background-image: url(../images/honor/ev-bg.jpg);
+  }
+  .mod-bg{
+    background: url('../images/honor/mod-bg.png') fixed, linear-gradient(-45deg, rgba(108, 108, 105, 0.8), rgba(176, 176, 176, 0.8)) fixed;
+    
+    background-size: cover;
+  }
+  
+  .section-sp1 {
+    padding-top: 80px;
+    padding-bottom: 80px
+
+}
+.mod-card{
+  height: 325px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: #fff;
+  border: solid 2px ;
+  cursor: pointer;
+  transition: .5s;
+}
+.mod-card:hover{
+ 
+  box-shadow: 0 0 25px 0 rgba(29, 25, 0, 0.5);
+ 
+}
+.item-center{
+  display: block;
+  margin: auto;
+}
+.mods{
+  list-style:none ;
+}
+.mods img{
+  width: 50px;
+}
+.mods-number{
+  width: 50px;
+  height: 50px;
+
+  color: #FFF;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+
+}
+.mods-number p{
+  line-height: 3;
+}
+
+.mr-30{
+  margin-right: 30px;
 }

@@ -420,3 +420,35 @@ element.style {}
     direction: rtl;
 
 }
+/* ============ */
+/* event */
+/* ======= */
+
+.ti-arrow-left:before {
+    content: "\e628";
+}
+.ti-arrow-right:before {
+    content: "\e629";
+}
+/* library */
+/* =========== */
+.mainshowarea:before {
+  
+    left: 0;
+    right: unset;
+    transform: scaleX(-1);
+
+  }
+  .mw-img {
+
+    transform: scaleX(-1) !important;
+
+  }
+
+    /* Honors rtl */
+      /* =========== */
+
+      .mr-30{
+        margin-right: 0;
+        margin-left: 30px;
+      }
