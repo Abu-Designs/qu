@@ -269,3 +269,19 @@ a {
     padding-right:10px
 
 }
+/* ============ */
+/* event */
+/* ======= */
+
+.ti-arrow-left:before {
+    content: "\e628";
+}
+.ti-arrow-right:before {
+    content: "\e629";
+}
+.dropdown-item{
+ text-align: right;
+     }
+.custom-dropmenu h6{
+    text-align: center;
+}

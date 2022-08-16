@@ -612,9 +612,7 @@ left: 41%;
   background-color: #0f020278;
   padding: 20px;}
 
-  .dropdown-item:active{
- background-color: #7f0d0d;
-  }
+
 /* ================= */
    /* honors */
    /* ============= */
@@ -676,4 +674,104 @@ left: 41%;
 
 .mr-30{
   margin-right: 30px;
+}
+/* =============== */
+/* student afairs */
+/* ============= */
+.affiars-carsoul {
+bottom: 28%;
+left: 45%;
+
+
+
+}
+.affiars-carsoul h3{
+  color: #434343;
+  line-height: 2;
+}
+
+/* .affairs-cars .carousel-control-next-icon, .carousel-control-prev-icon{
+  filter: invert(0%) sepia(82%) saturate(7384%) hue-rotate(282deg) brightness(78%) contrast(99%);
+}
+.affairs-cars .carousel-control-next-icon, .carousel-control-next-icon{
+  filter: invert(0%) sepia(82%) saturate(7384%) hue-rotate(282deg) brightness(78%) contrast(99%);
+} */
+.add-card{
+  height: 500px;
+}
+.aff-card img{
+  height: 200px !important;
+  object-fit: cover;
+}
+.aff-ul li{
+  padding-bottom: 10px;
+}
+.aff-ul li a{
+ color: #383634;
+}
+.fair-counter span{
+  color: #383634 !important;
+  text-transform: capitalize !important;
+}
+.fair-counter img{
+ height: 70px;
+ width: auto;
+}
+.aff-sty{
+  height: 350px;
+  background-image: url('../images/student\ affairs/stay.jpg');
+}
+.solcial-liste a img{
+  width: 50px;
+}
+.solcial-liste{
+  background-color: rgba(255, 255, 255, 0.325);
+}
+.solcial-liste a {
+ padding-left: 5px;
+ padding-right:5px ;
+}
+.solcial-liste a img{
+  width: 50px;
+}
+
+
+/* ================= */
+   /* Alumni */
+   /* ============= */
+.form-control{
+  border-radius: 8px;
+}
+.alumni-btn{
+  border-radius: 8px;
+}
+.alumni-btn:hover{
+  background-color: #fff !important;
+  color:#444 !important
+}
+.btn-twiter:hover{
+  box-shadow: 0 0 25px 0 rgb(29 25 0 / 25%);
+
+}
+.quick-facts .tittle{
+  position: absolute;
+  left: 111px;
+  top: 41px;
+}
+.quick-facts img{
+  height: 140px;
+}
+.quick-facts-carsoul h6{
+  line-height: 2;
+}
+.quick-facts-conrol img{
+  height: 140px;
+  width: inherit;
+}
+.quick-facts-arr {
+ position: absolute;
+ top: 10px;
+}
+.quick-facts-arr.carousel-control-next-icon, .carousel-control-prev-icon{
+  width: 111px;
 }

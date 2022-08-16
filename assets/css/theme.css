@@ -1,8 +1,9 @@
 :root{
    
-    --firstcolor:#3A3A6B;
-    --secoundcolor:#7373A9;
-    --thirdcolor:#d4dddd;
+    --firstcolor:#04566F;
+    --secoundcolor:#A86500;
+    --thirdcolor:#444444;
+    
 
   
 }
@@ -279,4 +280,9 @@ background-color: #1937CB;}
  .bg-green2{ background-color: #59B03B;}
 
  .bg-green3{ background-color: #0C7109;}
-
+/* =============== */
+/* student afairs */
+/* ============= */
+.bg-green{
+    background-color: var(--secoundcolor);
+}

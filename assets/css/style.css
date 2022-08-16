@@ -5353,3 +5353,18 @@ article .title {
 	
 }
 
+.dropdown-item:active{
+	background-color: #167687 !important;
+	 }
+	.dropdown-item{
+		padding: 15px;
+	border-bottom: solid 1px #d0d0d0;
+		 }
+		 .custom-dropdown{
+		
+			border-radius: 5px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+		 }
+	
+

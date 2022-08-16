@@ -77,7 +77,7 @@ body {
 
 .title-head {
     text-align: right;
-    display: block;
+   
 }
 
 .research-section {
@@ -89,8 +89,11 @@ body {
 }
 
 .event-left-side {
-    direction: ltr;
+
     text-align: right;
+}
+.event-left-side div{
+    margin-left: 10px;
 }
 
 .footer-top {
@@ -420,16 +423,7 @@ element.style {}
     direction: rtl;
 
 }
-/* ============ */
-/* event */
-/* ======= */
 
-.ti-arrow-left:before {
-    content: "\e628";
-}
-.ti-arrow-right:before {
-    content: "\e629";
-}
 /* library */
 /* =========== */
 .mainshowarea:before {
@@ -452,3 +446,5 @@ element.style {}
         margin-right: 0;
         margin-left: 30px;
       }
+      
+p{text-align: right;}      
