@@ -286,3 +286,9 @@ background-color: #1937CB;}
 .bg-green{
     background-color: var(--secoundcolor);
 }
+/* ================= */
+   /* Alumni */
+   /* ============= */
+   .prog-card :hover>h4{
+   color: var(--firstcolor);
+    }

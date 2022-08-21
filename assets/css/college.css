@@ -293,6 +293,7 @@ button.back-to-top,
   top: 14.5rem;
 }
 
+
 .college-news-carousel .carousel-control-prev-icon,
 .college-news-carousel .carousel-control-next-icon {
   width: 45px;
@@ -774,4 +775,55 @@ left: 45%;
 }
 .quick-facts-arr.carousel-control-next-icon, .carousel-control-prev-icon{
   width: 111px;
+}
+.prog-card h4{
+  padding-top: 5px;
+  color: #444;
+}
+.prog-card img{
+height: 250px;
+object-fit: cover;
+}
+.prog-card:hover{
+  box-shadow: 0 0 25px 0 rgb(29 25 0 / 15%);
+}
+.featured-card img{
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+.featured-card-body{
+  padding: 10px;
+  background-image: url(../images/alumni/qf-p.png);
+  background-color: #04566F;
+}
+.featured-card-body p{
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+.featured-card-body h6{
+  color: #fff;
+}
+/*  */
+.research-carousel .carousel-control-prev-icon,.research-carousel .carousel-control-next-icon{
+  filter:invert(99%) sepia(39%) saturate(7550%) hue-rotate(120deg) brightness(106%) contrast(34%)
+}
+.research-carousel .carousel-control-prev-icon{
+ width: 20px;
+
+}
+.img-130{
+  height: 130px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.reseach-carousel-controls{
+  position: inherit;
+  top:-200px
+}
+.h-120{
+  height: 120px;
 }

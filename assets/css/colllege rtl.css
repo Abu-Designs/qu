@@ -448,3 +448,34 @@ element.style {}
       }
       
 p{text-align: right;}      
+/* ================= */
+   /* Alumni */
+   /* ============= */
+   .quick-facts img {
+   
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.quick-facts .tittle {
+  
+    left: 181px;
+   
+}
+
+
+.quick-facts-arr.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 111px;
+}
+.quick-facts-conrol .carousel-control-prev-icon {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.quick-facts-conrol .carousel-control-next-icon{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+.research-carousel .carousel-control-prev-icon,.research-carousel .carousel-control-next-icon{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
