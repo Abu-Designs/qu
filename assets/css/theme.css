@@ -1,11 +1,12 @@
 :root{
    
-    --firstcolor:#04566F;
-    --secoundcolor:#A86500;
+    
+    --firstcolor:#10788F;
+    --secoundcolor:#04566F;
     --thirdcolor:#444444;
     
 
-  
+
 }
 
     .search-bx.style-1 .input-group-btn button{
@@ -292,3 +293,41 @@ background-color: #1937CB;}
    .prog-card :hover>h4{
    color: var(--firstcolor);
     }
+    /* ====themes sytle===== */
+    .pagination-bx.gray .pagination > li > a:hover, .pagination-bx.gray .pagination > li > span:hover, .pagination-bx.gray .pagination > li.active > span, .pagination-bx.gray .pagination > li.active > a {
+        background-color: var(--firstcolor) !important;
+        color: white !important;
+    }
+    /* ================ */
+    /* library comments */
+    /* ================ */
+    .cat {
+        color: var(--secoundcolor) !important;
+    }
+    .cat .icon{
+        color: var(--secoundcolor);
+    }
+    .cat.active .icon{
+        color: var(--thirdcolor);
+    }
+    .cat:hover .icon{
+        color: var(--thirdcolor);
+    }
+    .bottom-arrow {
+        color: var(--secoundcolor);
+    }
+
+/* =================== */
+/* lib2 */
+/* ================ */
+.breadcrumbs_holder ul li:hover{
+    color: var(--secoundcolor) !important;
+ 
+  }
+  .breadcrumbs_holder ul li a:hover {
+    color: var(--secoundcolor) !important;
+   
+  }
+  .color-main-dark {
+    color: var(--secoundcolor);
+}

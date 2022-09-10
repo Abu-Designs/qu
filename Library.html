@@ -49,7 +49,7 @@
 	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
 	<link href="assets/css/college.css" rel="stylesheet">
 	<link href="assets/css/theme.css" rel="stylesheet">
-	<!-- <link href="assets/css/colllege rtl.css" rel="stylesheet"> -->
+	<link href="assets/css/colllege rtl.css" rel="stylesheet">
 
 	<!-- REVOLUTION SLIDER CSS ============================================= -->
 	<link rel="stylesheet" type="text/css" href="assets/vendors/revolution/css/layers.css">
@@ -78,7 +78,7 @@
 		</div>
 
 		<!-- Header Top ==== -->
-		<header class="header rs-nav iner-menu header-transparent  " style="position: absolute;
+		<header class="header rs-nav iner-menu header-transparent  " style="position: relative;
 		width: 100%;">
 			<div class="top-bar" style="padding: 0;">
 				<div class="container">
@@ -269,11 +269,11 @@
 		<!-- header END -->
 
 		<!-- Content -->
-		<div class="page-content bg-white pt-5" style="z-index: 0;">
+		<div class="page-content bg-white " style="z-index: 0;">
 
 			<!--  page banner -->
-			<div class="mt-5">
-				<div class="row mt-5">
+			<div class=" container">
+				<div class="row ">
 					<div class="col-sm-6">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
 							<ol class="carousel-indicators">
@@ -317,9 +317,10 @@
 							</a>
 						  </div>
 					</div>
-					<div class="col-sm-5 cats">
+					<div class="col-sm-6 cats">
 						<!-- Tabs navs -->
-						<ul class="nav nav-tabs row cata" id="myTab" role="tablist" style="margin-top: 100px;">
+						<h3 class="mt-3 text-black">Search Discovery</h3>
+						<ul class="nav nav-tabs row cata" id="myTab" role="tablist" >
 							<li class="nav-item col-sm-3">
 								<a class="card cat text-center  active " id="search-tab" data-toggle="tab" href="#search" role="tab" aria-controls="home" aria-selected="true">
 								
@@ -329,7 +330,7 @@
 									</div>
 									Search All 
 									<div class="bottom-arrow ">
-										<i class="fa fa-sort-desc"></i>
+										<i class="fa fa-sort-asc"></i>
 									</div>
 								</a>
 							 
@@ -343,7 +344,7 @@
 									</div>
 									E-Resources  
 									<div class="bottom-arrow ">
-										<i class="fa fa-sort-desc"></i>
+										<i class="fa fa-sort-asc"></i>
 									</div>
 								</a>
 							 
@@ -353,11 +354,10 @@
 								
 								
 									<div class="icon text-center">
-										<i class="fa fa-database" aria-hidden="true"></i>
-									</div>
+										<i class="fa fa-newspaper-o" aria-hidden="true"></i>									</div>
 									Journal Finder   
 									<div class="bottom-arrow ">
-										<i class="fa fa-sort-desc"></i>
+										<i class="fa fa-sort-asc"></i>
 									</div>
 								</a>
 							 
@@ -367,11 +367,11 @@
 								
 								
 									<div class="icon text-center">
-										<i class="fa fa-database" aria-hidden="true"></i>
+										<i class="fa fa-book"></i>
 									</div>
 									Library Catalog 
 									<div class="bottom-arrow ">
-										<i class="fa fa-sort-desc"></i>
+										<i class="fa fa-sort-asc"></i>
 									</div>
 								</a>
 							 
@@ -386,37 +386,38 @@
   <div class="tab-content" id="myTabContent">
 	<div class="tab-pane fade show active" id="search" role="tabpanel" aria-labelledby="search-tab">
 		<div class="w-100 sub-cat mt-2" >
-			<form class="cours-search">
+			<form class="lib-1">
 				<div class="input-group">
-					<input type="text" class="form-control" placeholder="What do you want to learn today?	">
+					<input type="text" class="form-control" placeholder="Find books, journals, resources, DVD's, and more...">
 					<div class="input-group-append">
-						<button class="btn" type="submit">Search</button> 
+						<button class="btn btn-light" type="submit">Search</button> 
 					</div>
 				</div>
 			</form>
-			<a href="" class="ml-auto btn-link float-right">Advanced Search</a>
+			<a href="" class="ml-auto btn-link float-right text-black mt-1">Advanced Search</a>
 
 		</div>
 	</div>
 	<div class="tab-pane fade" id="resouce" role="tabpanel" aria-labelledby="resouce-tab">
 		<div class="w-100 sub-cat mt-2" >
-			<div class="row  data-base pt-3">
-			<div class="col-sm-2">
-				<label class="firstcolor " for="exampleFormControlSelect1"> Data Base</label>
-			</div>
-			<div class="col-sm-10" style="margin-bottom: -16px;">
-				<div class="form-group w-100">
-				
-					<select class="form-control" id="exampleFormControlSelect1">
-					  <option>Data base by titel</option>
-					  <option>2</option>
-					  <option>3</option>
-					  <option>4</option>
-					  <option>5</option>
-					</select>
-				  </div>
-			</div>
-			
+			<div class=" ">
+				<div class="form-group lib-2">
+					<label for="database" class="mr-2 ml-2">Databases</label>
+					<select class="form-control w-75" id="database" name="category">
+						<option value="5">Database by title  </option>
+						<option value="21">Databases by subject</option>
+						<option value="35">Arabic Language Databases</option>
+						<option value="36">Open Access Databases</option>
+						<option value="37">Visual Databases</option>
+						<option value="32">E-Books</option>
+						<option value="24">Recent Subscriptions</option>
+						<option value="28">Trial Databases</option>
+						<option value="33">E-Theses &amp; Dissertations</option>
+						<option value="34">Encyclopedias &amp; Dictionaries</option>
+						<option value="31">Anti-Plagiarism Software</option>
+						<option value="11">Citation Management Software</option>
+						<option value="39">Researchers ID Tools</option></select></div>
+		
 			
 			</div>
 			
@@ -427,7 +428,7 @@
 		
 			  </form>
 			  <div class="pagination-bx rounded-sm gray clearfix">
-				<ul class="nav nav-tabs pagination " id="myTab" role="tablist" style="margin-top:-15px ;">
+				<ul class="nav nav-tabs pagination " id="myTab" role="tablist" style="margin-top:-10px ;">
 					<li class="nav-item">
 						<a class="nav-link mr-3 ml-3" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true" >
 							All
@@ -453,11 +454,11 @@
 	</div>
 	<div class="tab-pane fade" id="journal" role="tabpanel" aria-labelledby="journal-tab">
 		<div class="w-100 sub-cat mt-2" >
-			<form class="cours-search">
-				<div class="input-group">
+			<form class="">
+				<div class="input-group lib-1">
 					<input type="text" class="form-control" placeholder="What do you want to learn today?	">
 					<div class="input-group-append">
-						<button class="btn" type="submit">Search</button> 
+						<button class="btn btn-light" type="submit">Search</button> 
 					</div>
 				</div>
 			</form>
@@ -505,15 +506,15 @@
 				  <option>5</option>
 				</select>
 			  </div>
-			<form class="cours-search">
-				<div class="input-group">
+			<form class="">
+				<div class="input-group lib-1">
 					<input type="text" class="form-control" placeholder="What do you want to learn today?	">
 					<div class="input-group-append">
-						<button class="btn" type="submit">Search</button> 
+						<button class="btn btn-light" type="submit">Search</button> 
 					</div>
 				</div>
 			</form>
-			<a href="" class="ml-auto btn-link float-right ">Advanced Search</a>
+			<a href="" class="ml-auto btn-link  mt-1 text-black ">Advanced Search</a>
 
 		</div>
 		
@@ -549,53 +550,14 @@
 										<div class="panel">
 											<div class="acod-head">
 												<h6 class="acod-title"> 
-													<a data-toggle="collapse" href="#faq1" class="collapsed" data-parent="#faq1">
+													<a data-toggle="collapse" href="#mas" class="collapsed" data-parent="#mas">
 													Why won't my payment go through? </a> </h6>
 											</div>
-											<div id="faq1" class="acod-body collapse">
+											<div id="mas" class="acod-body collapse">
 												<div class="acod-content">Web design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
 											</div>
 										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse" href="#faq2" class="collapsed" data-parent="#faq2">
-													How do I get a refund?</a> </h6>
-											</div>
-											<div id="faq2" class="acod-body collapse">
-												<div class="acod-content">Graphic design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq3" class="collapsed"  data-parent="#faq3">
-													How do I redeem a coupon? </a> </h6>
-											</div>
-											<div id="faq3" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq4" class="collapsed"  data-parent="#faq4">
-													Why aren't my courses showing in my account? </a> </h6>
-											</div>
-											<div id="faq4" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq5" class="collapsed"  data-parent="#faq5">
-													Changing account name </a> </h6>
-											</div>
-											<div id="faq5" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
+									
 									</div>
 								</div>
 								<div class="tab-pane fade show " id="a" role="tabpanel" aria-labelledby="a-tab">
@@ -653,112 +615,50 @@
 										</div>
 									</div>
 								</div>
-								<div class="tab-pane fade" id="b" role="tabpanel" aria-labelledby="b-tab">	<h1> e Source Result</h1>
+								<div class="tab-pane fade show " id="b" role="tabpanel" aria-labelledby="a-tab">
+									<h1> e Source Result</h1>
 									<div class="ttr-accordion m-b30 faq-bx" id="accordion1">
 										<div class="panel">
 											<div class="acod-head">
 												<h6 class="acod-title"> 
-													<a data-toggle="collapse" href="#faq1" class="collapsed" data-parent="#faq1">
+													<a data-toggle="collapse" href="#faq1b" class="collapsed" data-parent="#faq1b">
 													Why won't my payment go through? </a> </h6>
 											</div>
-											<div id="faq1" class="acod-body collapse">
-												<div class="acod-content">Web design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+											<div id="faq1b" class="acod-body collapse">
+												<div class="acod-content">Web design aorem apsum dolor sit amet, 
+													adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore
+													
+												magna aliquam erat volutpat.
+												<br>
+													<a href="#"> View more</a>
+											</div>
 											</div>
 										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse" href="#faq2" class="collapsed" data-parent="#faq2">
-													How do I get a refund?</a> </h6>
-											</div>
-											<div id="faq2" class="acod-body collapse">
-												<div class="acod-content">Graphic design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq3" class="collapsed"  data-parent="#faq3">
-													How do I redeem a coupon? </a> </h6>
-											</div>
-											<div id="faq3" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq4" class="collapsed"  data-parent="#faq4">
-													Why aren't my courses showing in my account? </a> </h6>
-											</div>
-											<div id="faq4" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq5" class="collapsed"  data-parent="#faq5">
-													Changing account name </a> </h6>
-											</div>
-											<div id="faq5" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-									</div></div>
-								<div class="tab-pane fade" id="c" role="tabpanel" aria-labelledby="c-tab">	<h1> e Source Result</h1>
+									
+									</div>
+								</div>
+								<div class="tab-pane fade show " id="c" role="tabpanel" aria-labelledby="a-tab">
+									<h1> e Source Result</h1>
 									<div class="ttr-accordion m-b30 faq-bx" id="accordion1">
 										<div class="panel">
 											<div class="acod-head">
 												<h6 class="acod-title"> 
-													<a data-toggle="collapse" href="#faq1" class="collapsed" data-parent="#faq1">
+													<a data-toggle="collapse" href="#faq1c" class="collapsed" data-parent="#faq1c">
 													Why won't my payment go through? </a> </h6>
 											</div>
-											<div id="faq1" class="acod-body collapse">
-												<div class="acod-content">Web design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
+											<div id="faq1c" class="acod-body collapse">
+												<div class="acod-content">Web design aorem apsum dolor sit amet, 
+													adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore
+													magna aliquam erat volutpat.
+												<br>
+													<a href="#"> View more</a>
+												</div>
 											</div>
 										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse" href="#faq2" class="collapsed" data-parent="#faq2">
-													How do I get a refund?</a> </h6>
-											</div>
-											<div id="faq2" class="acod-body collapse">
-												<div class="acod-content">Graphic design aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq3" class="collapsed"  data-parent="#faq3">
-													How do I redeem a coupon? </a> </h6>
-											</div>
-											<div id="faq3" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq4" class="collapsed"  data-parent="#faq4">
-													Why aren't my courses showing in my account? </a> </h6>
-											</div>
-											<div id="faq4" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-										<div class="panel">
-											<div class="acod-head">
-												<h6 class="acod-title"> 
-													<a data-toggle="collapse"  href="#faq5" class="collapsed"  data-parent="#faq5">
-													Changing account name </a> </h6>
-											</div>
-											<div id="faq5" class="acod-body collapse">
-												<div class="acod-content">Developement aorem apsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</div>
-											</div>
-										</div>
-									</div></div>
+									
+									</div>
+								</div>
+								
 							  </div>
 						</div>
 						<div class="col-sm-12">

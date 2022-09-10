@@ -506,112 +506,6 @@ text-decoration: underline !important;
   direction: rtl;
 
 }
-/* library */
-.cat{
-  padding: 10px;
-margin: 5px;
-  cursor: pointer;
-  border-radius: 5px !important;
-}
-.cat.active .bottom-arrow{
-  opacity: 100%
-  ;
-  }
-
-
-.cat .icon{
-  font-size: 20px;
-}
-.bottom-arrow{
-  position: absolute;
-  bottom: -33px;
-left: 41%;
-  font-size: 50px;
-  opacity: 0;
-}
-.sub-cat{
-  padding: 15px;
-  min-height: 200px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
-.data-base label{
-  font-weight: 400;
-}
-
-
-.dropdown-menu > li > a{
-  font-weight: 500;
-  font-size: 15px;
-}
-.dropdown-menu > li > a i{
-  font-weight: 500;
-  font-size: 15px;
-}
-.cats .col-sm-3{
-  padding-left: 0px;
-  padding-right: 0px;
-}
-.bar{
-  background-image: url(../images/lib/bar.png);
-  height: 34px;
-}
-.action-box {
-  text-align: center;
-}
-.cats .nav-tabs{
-  border-bottom: none;
-}
-.cours-search {
-  margin-bottom:10px
-}
-.alpha{
-  overflow: auto;
-}
-.alpha a{
-  margin-right: 5px;
-  margin-left: 5px;
-}
-.service-bx .info-bx{
-  padding: 10px 10px;
-}
-.service-bx [class*="feature-"] {
-  
-  margin-bottom: -30px;
-}
-.info-bx h4{
-  font-size: 16px;
- 
-  font-weight: 600;
-}
-.services .row .col-sm-3{
-  margin-top: 20px;
-}
-.service-bx [class*="feature-"] {
- 
-  top: -26px;
-  margin-bottom: -15px;
-}
-.under-header{
-  background-image: url('../images/honor/honor-pattern.png');
-  height: 40px;
-}
-.mainshowarea:before {
-  width: 400px;
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  content: '';
-  background: url(../images/lib/showarea-pattern.png) no-repeat right top;
-  text-align: right;
-  z-index: 5;
-  background-size: contain;
-}
-.mainshowarea .carousel-caption{
-  background-color: #0f020278;
-  padding: 20px;}
 
 
 /* ================= */
@@ -826,4 +720,200 @@ object-fit: cover;
 }
 .h-120{
   height: 120px;
+}
+/* ====college==== */
+.form-control {
+
+  border-radius: 8px !important;
+
+}
+.sub-cat .col-sm-10 .form-control{
+  width: 98% !important;
+}
+.sub-cat .form-group .btn{
+  border-radius: 8px !important;
+}
+/* =============== */
+/* Celt */
+/* =============== */
+.celt .service-bx{
+  box-shadow:none;
+
+}
+.celt .service-bx:hover{
+  box-shadow: 0 0 25px 0 rgb(29 25 0 / 25%);
+
+}
+.link-hover a {
+  text-align: left;
+  position: relative;
+  width: 210px;
+  height: 153px;
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+}
+.link-hover a img {
+  position: absolute;
+}
+
+.link-hover a img:hover {
+ 
+  top: -170px;
+
+}
+/* ============ */
+/* library */
+/* =========== */
+.cat{
+  padding: 3px;
+margin: 5px;
+  cursor: pointer;
+  border-radius: 5px !important;
+}
+.cat.active .bottom-arrow{
+  opacity: 100%
+  ;
+  }
+
+.cat{
+  font-size: 16px;
+}
+.cat .icon{
+  font-size: 20px;
+}
+.bottom-arrow {
+  position: absolute;
+  bottom: -46px;
+  left: 41%;
+  font-size: 40px;
+  opacity: 0;
+}
+.sub-cat{
+  padding: 15px;
+  min-height: 200px;
+  box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+  border-radius: 3px;
+  min-height: 150px;
+}
+.data-base label{
+  font-weight: 400;
+}
+
+
+.dropdown-menu > li > a{
+  font-weight: 500;
+  font-size: 15px;
+}
+.dropdown-menu > li > a i{
+  font-weight: 500;
+  font-size: 15px;
+}
+.cats .col-sm-3{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.bar{
+  background-image: url(../images/lib/bar.png);
+  height: 34px;
+}
+.action-box {
+  text-align: center;
+}
+.cats .nav-tabs{
+  border-bottom: none;
+}
+.cours-search {
+  margin-bottom:10px
+}
+.alpha{
+  overflow: auto;
+}
+.alpha a {
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 14px;
+  color: #000;
+}
+.alpha a:hover {
+ text-decoration: underline;
+}
+.service-bx .info-bx{
+  padding: 10px 10px;
+}
+.service-bx [class*="feature-"] {
+  
+  margin-bottom: -30px;
+}
+.info-bx h4{
+  font-size: 16px;
+ 
+  font-weight: 600;
+}
+.services .row .col-sm-3{
+  margin-top: 20px;
+}
+.service-bx [class*="feature-"] {
+ 
+  top: -26px;
+  margin-bottom: -15px;
+}
+.under-header{
+  background-image: url('../images/honor/honor-pattern.png');
+  height: 40px;
+}
+.mainshowarea:before {
+  width: 400px;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  content: '';
+  background: url(../images/lib/showarea-pattern.png) no-repeat right top;
+  text-align: right;
+  z-index: 5;
+  background-size: contain;
+}
+.mainshowarea .carousel-caption{
+  background-color: #0f020278;
+  padding: 20px;}
+
+  .btn-light {
+    font-size: 1rem;
+    color: #212529;
+    background-color: #f8f9fa !important;
+    border: 1px solid #ccc !important;
+}
+.btn-light:hover {
+  border: 1px solid #ccc !important;
+  color: black !important;
+  background-color: #e2e6ea !important;
+}
+.lib-1 .form-control {
+  display: block;
+ 
+  height: calc(2.25rem + 2px);
+  padding:1.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.text-black {
+  color: #000 !important;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+.lib-2 label{
+  font-weight: 400;
+  color: #000;
 }

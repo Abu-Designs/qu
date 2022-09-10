@@ -424,20 +424,24 @@ element.style {}
 
 }
 
-/* library */
-/* =========== */
-.mainshowarea:before {
+
   
-    left: 0;
-    right: unset;
-    transform: scaleX(-1);
+/* =======college rtl========== */
+.input-group>.input-group-append>.btn, .input-group>.input-group-append>.input-group-text, .input-group>.input-group-prepend:first-child>.btn:not(:first-child), .input-group>.input-group-prepend:first-child>.input-group-text:not(:first-child), .input-group>.input-group-prepend:not(:first-child)>.btn, .input-group>.input-group-prepend:not(:first-child)>.input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn, .btn-secondry {
 
-  }
-  .mw-img {
+    font-family: 'dinar';
+}
+.ti-arrow-right:before {
+    content: "\e629";
+}
+.ti-arrow-left:before {
+    content: "\e628";
+}
 
-    transform: scaleX(-1) !important;
-
-  }
 
     /* Honors rtl */
       /* =========== */
@@ -479,3 +483,31 @@ p{text-align: right;}
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+/* library */
+/* =========== */
+.mainshowarea:before {
+  
+    left: 0;
+    right: unset;
+    transform: scaleX(-1);
+
+  }
+  .mw-img {
+
+    transform: scaleX(-1) !important;
+
+  }.lib-1 .form-control {
+
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+  }
+  .bottom-arrow {
+  
+    bottom: -52px;
+
+}
+.cat{
+    font-size: 16px;
+  }

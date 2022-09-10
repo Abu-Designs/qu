@@ -255,18 +255,7 @@ a {
 	}
 }
 
-.triangle {
-	width: 75px;
-	height: 50px;
-	margin: 0 auto;
-	transform: rotate(180deg);
-	background: rgba(2, 0, 11, 0.50);
-	clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
-}
 
-.triangle img {
-	width: 100%;
-}
 
 .header-sm-lang {
 	background-color: #000;
@@ -5369,3 +5358,72 @@ article .title {
 		 }
 	
 
+		 .triangle {
+			width: 75px;
+			height: 50px;
+			margin: 0 auto;
+			transform: rotate(180deg);
+			background-image: url(../images/pattern.png);
+			background-color: #16130ec9;
+			clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+		}
+		
+		  
+		  .PagingPrevLink{
+			padding: 10px;color:#767676; margin: 2px; background: #f6f7f8; font: 8pt tahoma;    border-radius: 4px;
+			}
+			.PagingLink{
+			padding: 10px;color:#767676; margin: 2px; background: #f6f7f8; font: 8pt tahoma;    border-radius: 4px;
+			}
+			.PagingNextLink{
+			padding: 10px;color:#767676; margin: 2px; background: #f6f7f8; font: 8pt tahoma;    border-radius: 4px;
+			}
+			.PagingPrevLink:hover{
+				background: #285678;color:white
+				}
+				.PagingLink:hover{
+					background: #285678;color:white
+				}
+				.PagingNextLink:hover{
+					background: #285678;color:white
+				}
+				
+				.PagingPrevLink::selection{
+					background: #285678;color:white
+					}
+					.PagingLink::selection{
+						background: #285678;color:white
+					}
+					.PagingNextLink ::selection{
+						background: #285678;color:white
+					}
+/* ====== */
+/* ============ */
+/* lib 2 */
+/* ============== */
+.breadcrumbs_holder {
+	margin-top: -53px;
+	background-color: #7373a9;
+	padding: 15px;
+	margin: auto;
+	min-height: 75px;
+	border-top: 5px solid rgba(238, 238, 246, 0.56);
+	border-top-color: rgba(238, 238, 246, 0.56);
+	border-bottom: 5px solid rgba(238, 238, 246, 0.56);
+	border-bottom-color: rgba(238, 238, 246, 0.56);
+  }
+  .breadcrumbs_holder ul li{
+	color: #fff !important;
+	font-size: 16px;
+  }
+  .breadcrumbs_holder ul li a{
+	color: #fff !important;
+   
+  }
+  .library-tutorials .card-body {
+	text-align: center;
+	background: #fff;
+	border: 3.5px solid rgba(238, 238, 246, 0.56);
+	margin: -30px 28px 0;
+	padding: 0px;
+  }
